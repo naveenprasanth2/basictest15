@@ -12,6 +12,8 @@ public class BTest {
 
         tree.insert(27);
 
+        System.out.println(tree.search(21));
+
         System.out.println(tree.root.left.right.value);
     }
 }
