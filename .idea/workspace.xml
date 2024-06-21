@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/challenges/ReverseVowels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hashtable/HashEval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hashtable/HashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/binary/Immutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/binary/Interview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/binary/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/binary/StringEval.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/binary/BTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/binary/BTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/binary/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/binary/BinarySearchTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +41,11 @@
   "keyToString": {
     "Application.BTest.executor": "Run",
     "Application.HashEval.executor": "Run",
+    "Application.Interview.executor": "Debug",
     "Application.IpAddressMatching.executor": "Run",
     "Application.LinkedInTest.executor": "Run",
+    "Application.ReverseVowels.executor": "Run",
+    "Application.StringEval.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Maven.basictest15 [install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -58,26 +59,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseVowels">
-    <configuration name="BTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.binary.BTest" />
+  <component name="RunManager" selected="Application.Interview">
+    <configuration name="Interview" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.binary.Interview" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.binary.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HashEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hashtable.HashEval" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.hashtable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +112,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.binary.StringEval" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.binary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Interview" />
+        <item itemvalue="Application.StringEval" />
         <item itemvalue="Application.ReverseVowels" />
-        <item itemvalue="Application.HashEval" />
-        <item itemvalue="Application.BTest" />
         <item itemvalue="Application.LinkedInTest" />
         <item itemvalue="Application.IpAddressMatching" />
       </list>
@@ -144,5 +145,16 @@
       <updated>1718432797025</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/binary/Interview.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
