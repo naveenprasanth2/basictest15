@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/binary/Immutable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/binary/Interview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/binary/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/binary/StringEval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview/Common.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/binary/Interview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/binary/Interview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/binary/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/binary/Singleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/sapmachine-22.0.1/Contents/Home/lib/src.zip!/java.base/java/util/function/Function.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -40,8 +42,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BTest.executor": "Run",
+    "Application.Common.executor": "Run",
     "Application.HashEval.executor": "Run",
-    "Application.Interview.executor": "Debug",
+    "Application.Interview.executor": "Run",
     "Application.IpAddressMatching.executor": "Run",
     "Application.LinkedInTest.executor": "Run",
     "Application.ReverseVowels.executor": "Run",
@@ -50,6 +53,7 @@
     "Maven.basictest15 [install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "ignore.preview.features.used": "true",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
@@ -59,13 +63,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Interview">
-    <configuration name="Interview" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.binary.Interview" />
+  <component name="RunManager" selected="Application.Common">
+    <configuration name="Common" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.interview.Common" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.binary.*" />
+          <option name="PATTERN" value="org.example.interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IpAddressMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.regex.IpAddressMatching" />
+    <configuration name="Interview" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.binary.Interview" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.regex.*" />
+          <option name="PATTERN" value="org.example.binary.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Interview" />
+        <item itemvalue="Application.Common" />
         <item itemvalue="Application.StringEval" />
         <item itemvalue="Application.ReverseVowels" />
         <item itemvalue="Application.LinkedInTest" />
-        <item itemvalue="Application.IpAddressMatching" />
+        <item itemvalue="Application.Interview" />
       </list>
     </recent_temporary>
   </component>

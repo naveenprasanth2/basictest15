@@ -29,7 +29,7 @@ public class Interview {
             count++;
         }
 
-        for (int i = 0; i < target.length -1 ; i++) {
+        for (int i = 0; i < target.length - 1; i++) {
             while (target[i] >= (result[i] * 2) && target[i + 1] >= (result[i + 1] * 2)) {
                 result[i] = result[i] * 2;
                 result[i + 1] = result[i + 1] * 2;
@@ -39,11 +39,11 @@ public class Interview {
                 result[i] = result[i] + 1;
                 count++;
             }
-            while (target[i+1] >= (result[i+1] + 1)) {
-                result[i+1] = result[i+1] + 1;
+            while (target[i + 1] >= (result[i + 1] + 1)) {
+                result[i + 1] = result[i + 1] + 1;
                 count++;
             }
         }
-
+        System.out.println(count);
     }
 }
