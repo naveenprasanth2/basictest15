@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/xperi/Addition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/xperi/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/xperi/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/xperi/Interview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/xperi/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/xperi/OperationExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/xperi/Operations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/xperi/ParkingLot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/xperi/Subtraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/xperi/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jpmc/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jpmc/AccountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jpmc/InsufficientBalanceException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/xperi/Interview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/xperi/Interview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/xperi/OperationExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/xperi/OperationExecutor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -49,6 +44,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AccountTest.executor": "Run",
     "Application.BTest.executor": "Run",
     "Application.Common.executor": "Run",
     "Application.HashEval.executor": "Run",
@@ -58,7 +54,7 @@
     "Application.Main.executor": "Run",
     "Application.ReverseVowels.executor": "Run",
     "Application.StringEval.executor": "Run",
-    "Application.org.example.xperi.Interview.executor": "Run",
+    "Application.org.example.xperi.Interview.executor": "Debug",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Maven.basictest15 [install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -73,7 +69,20 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.AccountTest">
+    <configuration name="AccountTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.jpmc.AccountTest" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.jpmc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Common" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.interview.Common" />
       <module name="basictest15" />
@@ -93,19 +102,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.xperi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseVowels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.challenges.ReverseVowels" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.challenges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.AccountTest" />
         <item itemvalue="Application.org.example.xperi.Interview" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Common" />
         <item itemvalue="Application.StringEval" />
-        <item itemvalue="Application.ReverseVowels" />
       </list>
     </recent_temporary>
   </component>

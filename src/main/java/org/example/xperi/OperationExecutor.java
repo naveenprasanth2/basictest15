@@ -7,7 +7,7 @@ public class OperationExecutor {
         this.operations = operations;
     }
 
-    public int performOperation(int a, int b){
-       return operations.performOperation(a, b);
+    public int performOperation(int a, int b) {
+        return operations.performOperation(a, b);
     }
 }
