@@ -13,22 +13,24 @@ import java.util.UUID;
 @EqualsAndHashCode
 public class Account {
     private final UUID accountNumber;
-    private double balance;
+    private volatile double balance;
 
     public Account(double balance) {
         accountNumber = UUID.randomUUID();
         this.balance = balance;
     }
 
-    public void depositMoney(double depositValue) {
+    public synchronized void depositMoney(double depositValue) {
         setBalance(getBalance() + depositValue);
     }
 
-    public void withdrawMoney(double withdrawAmount) {
+    public synchronized void withdrawMoney(double withdrawAmount) {
         if (getBalance() < withdrawAmount) {
             throw new InsufficientBalanceException("Your withdrawal amount is higher than current balance");
         } else {
-            setBalance(getBalance() - withdrawAmount);
+            synchronized (this) {
+                setBalance(getBalance() - withdrawAmount);
+            }
         }
     }
 
@@ -36,8 +38,10 @@ public class Account {
         if (getBalance() < amount) {
             throw new InsufficientBalanceException("Your withdrawal amount is higher than current balance");
         } else {
-            setBalance(getBalance() - amount);
-            account.depositMoney(amount);
+            synchronized (this) {
+                setBalance(getBalance() - amount);
+                account.depositMoney(amount);
+            }
         }
     }
 

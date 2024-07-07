@@ -5,12 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jpmc/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jpmc/AccountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jpmc/InsufficientBalanceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview1/CartRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview1/CartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview1/CartServiceInter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview1/Decoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview1/EncodeJPEG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview1/Encoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview1/EncoderPNG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview1/EncoderSpec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview1/IncorrectFormatException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview1/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview1/ItemDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview1/ShoppingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview1/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/morgan/JavaCollections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/morgan/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/morgan/MessageQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/morgan/TwoSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/xperi/Interview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/xperi/Interview.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/xperi/OperationExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/xperi/OperationExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jpmc/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jpmc/Account.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +33,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
+        <option value="Record" />
         <option value="Class" />
       </list>
     </option>
@@ -42,40 +57,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AccountTest.executor": "Run",
-    "Application.BTest.executor": "Run",
-    "Application.Common.executor": "Run",
-    "Application.HashEval.executor": "Run",
-    "Application.Interview.executor": "Run",
-    "Application.IpAddressMatching.executor": "Run",
-    "Application.LinkedInTest.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.ReverseVowels.executor": "Run",
-    "Application.StringEval.executor": "Run",
-    "Application.org.example.xperi.Interview.executor": "Debug",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "Maven.basictest15 [install].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.preview.features.used": "true",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AccountTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Common.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashEval.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Interview.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IpAddressMatching.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JavaCollections.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedInTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseVowels.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringEval.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.xperi.Interview.executor&quot;: &quot;Debug&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.basictest15 [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.interview1" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AccountTest">
-    <configuration name="AccountTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.jpmc.AccountTest" />
+  <component name="RunManager" selected="Application.TwoSum">
+    <configuration name="Common" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.interview.Common" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.jpmc.*" />
+          <option name="PATTERN" value="org.example.interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Common" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.interview.Common" />
+    <configuration name="JavaCollections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.morgan.JavaCollections" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.interview.*" />
+          <option name="PATTERN" value="org.example.morgan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.binary.StringEval" />
+    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.morgan.TwoSum" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.binary.*" />
+          <option name="PATTERN" value="org.example.morgan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AccountTest" />
+        <item itemvalue="Application.TwoSum" />
+        <item itemvalue="Application.JavaCollections" />
         <item itemvalue="Application.org.example.xperi.Interview" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Common" />
-        <item itemvalue="Application.StringEval" />
       </list>
     </recent_temporary>
   </component>
