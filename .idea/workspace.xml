@@ -5,25 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview1/CartRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview1/CartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview1/CartServiceInter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview1/Decoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview1/EncodeJPEG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview1/Encoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview1/EncoderPNG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview1/EncoderSpec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview1/IncorrectFormatException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview1/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview1/ItemDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview1/ShoppingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview1/Type.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/morgan/JavaCollections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/morgan/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/morgan/MessageQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/morgan/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/LongestSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/MergeIntervals.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jpmc/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jpmc/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/interview1/EncodeJPEG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/interview1/EncodeJPEG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/interview1/Encoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/interview1/Encoder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +53,9 @@
     &quot;Application.IpAddressMatching.executor&quot;: &quot;Run&quot;,
     &quot;Application.JavaCollections.executor&quot;: &quot;Run&quot;,
     &quot;Application.LinkedInTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestSubstring.executor&quot;: &quot;Run&quot;,
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeIntervals.executor&quot;: &quot;Run&quot;,
     &quot;Application.ReverseVowels.executor&quot;: &quot;Run&quot;,
     &quot;Application.StringEval.executor&quot;: &quot;Run&quot;,
     &quot;Application.TwoSum.executor&quot;: &quot;Run&quot;,
@@ -89,20 +77,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TwoSum">
-    <configuration name="Common" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.interview.Common" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.interview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MergeIntervals">
     <configuration name="JavaCollections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.morgan.JavaCollections" />
       <module name="basictest15" />
@@ -116,12 +91,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.xperi.Main" />
+    <configuration name="LongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.LongestSubstring" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.xperi.*" />
+          <option name="PATTERN" value="org.example.gpt_challenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeIntervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.MergeIntervals" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.gpt_challenge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TwoSum" />
-        <item itemvalue="Application.JavaCollections" />
+        <item itemvalue="Application.MergeIntervals" />
         <item itemvalue="Application.org.example.xperi.Interview" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Common" />
+        <item itemvalue="Application.TwoSum" />
+        <item itemvalue="Application.LongestSubstring" />
+        <item itemvalue="Application.JavaCollections" />
       </list>
     </recent_temporary>
   </component>
@@ -183,6 +171,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/binary/Interview.java</url>
           <line>32</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/LongestSubstring.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
