@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/LongestSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/MergeIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview2/ArrayChallenge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/synechron/FindUncommonCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/synechron/SmallestAndLargest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/interview1/EncodeJPEG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/interview1/EncodeJPEG.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/interview1/Encoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/interview1/Encoder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,32 +42,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AccountTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Common.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HashEval.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Interview.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IpAddressMatching.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JavaCollections.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedInTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestSubstring.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MergeIntervals.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseVowels.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringEval.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TwoSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.example.xperi.Interview.executor&quot;: &quot;Debug&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.basictest15 [install].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AccountTest.executor": "Run",
+    "Application.ArrayChallenge.executor": "Run",
+    "Application.BTest.executor": "Run",
+    "Application.Common.executor": "Run",
+    "Application.FindUncommonCharacter.executor": "Run",
+    "Application.HashEval.executor": "Run",
+    "Application.Interview.executor": "Run",
+    "Application.IpAddressMatching.executor": "Run",
+    "Application.JavaCollections.executor": "Run",
+    "Application.LinkedInTest.executor": "Run",
+    "Application.LongestSubstring.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MergeIntervals.executor": "Run",
+    "Application.ReverseVowels.executor": "Run",
+    "Application.SmallestAndLargest.executor": "Run",
+    "Application.StringEval.executor": "Run",
+    "Application.TwoSum.executor": "Run",
+    "Application.org.example.xperi.Interview.executor": "Debug",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.basictest15 [install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.preview.features.used": "true",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example.interview1" />
@@ -77,13 +79,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeIntervals">
-    <configuration name="JavaCollections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.morgan.JavaCollections" />
+  <component name="RunManager" selected="Application.FindUncommonCharacter">
+    <configuration name="ArrayChallenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.interview2.ArrayChallenge" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.morgan.*" />
+          <option name="PATTERN" value="org.example.interview2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.LongestSubstring" />
+    <configuration name="FindUncommonCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.synechron.FindUncommonCharacter" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.gpt_challenge.*" />
+          <option name="PATTERN" value="org.example.synechron.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.morgan.TwoSum" />
+    <configuration name="SmallestAndLargest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.synechron.SmallestAndLargest" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.morgan.*" />
+          <option name="PATTERN" value="org.example.synechron.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindUncommonCharacter" />
+        <item itemvalue="Application.SmallestAndLargest" />
+        <item itemvalue="Application.ArrayChallenge" />
         <item itemvalue="Application.MergeIntervals" />
         <item itemvalue="Application.org.example.xperi.Interview" />
-        <item itemvalue="Application.TwoSum" />
-        <item itemvalue="Application.LongestSubstring" />
-        <item itemvalue="Application.JavaCollections" />
       </list>
     </recent_temporary>
   </component>
