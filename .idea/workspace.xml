@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/synechron/FindUncommon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/TwoSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/synechron/FindUncommonCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/synechron/FindUncommonCharacter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,20 +77,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindUncommonCharacter">
-    <configuration name="ArrayChallenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.interview2.ArrayChallenge" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.interview2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TwoSum">
     <configuration name="FindUncommonCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.synechron.FindUncommonCharacter" />
       <module name="basictest15" />
@@ -131,6 +117,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.TwoSum" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.gpt_challenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="org.example.xperi.Interview" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.xperi.Interview" />
       <module name="basictest15" />
@@ -146,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.FindUncommonCharacter" />
         <item itemvalue="Application.org.example.xperi.Interview" />
         <item itemvalue="Application.SmallestAndLargest" />
         <item itemvalue="Application.MergeIntervals" />
-        <item itemvalue="Application.ArrayChallenge" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +176,15 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/LongestSubstring.java</url>
           <line>14</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/TwoSum.java</url>
+          <line>5</line>
+          <properties class="org.example.gpt_challenge.TwoSum" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
