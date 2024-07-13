@@ -1,21 +1,24 @@
 package org.example.synechron;
 
 import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
 
 public class FindUncommonCharacter {
     static String str1 = "characters";
     static String str2 = "alphabets";
 
     public static void main(String[] args) {
-        HashSet<Character> test = new HashSet<>();
+        Set<Character> test = new TreeSet<>();
         for (int i = 0; i < str1.length(); i++) {
-            if (findUncommon(str1.charAt(i), str2) == -1) {
+            if (findUncommon(str1.charAt(i), str2)) {
                 test.add(str1.charAt(i));
             }
         }
 
         for (int i = 0; i < str2.length(); i++) {
-            if (findUncommon(str2.charAt(i), str1) == -1) {
+            if (findUncommon(str2.charAt(i), str1)) {
                 test.add(str2.charAt(i));
             }
         }
@@ -23,7 +26,7 @@ public class FindUncommonCharacter {
         System.out.println(test);
     }
 
-    private static int findUncommon(char c, String str) {
-        return str.indexOf(c);
+    private static boolean findUncommon(char c, String str) {
+        return str.indexOf(c)  == -1;
     }
 }
