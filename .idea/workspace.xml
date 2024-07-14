@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/Currency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/LongestString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/ValidParenthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/CurrencyEval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/EmployeeEval.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,9 +19,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Record" />
         <option value="Class" />
-        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -49,6 +48,8 @@
     "Application.ArrayChallenge.executor": "Run",
     "Application.BTest.executor": "Run",
     "Application.Common.executor": "Run",
+    "Application.CurrencyEval.executor": "Run",
+    "Application.EmployeeEval.executor": "Run",
     "Application.FindUncommonCharacter.executor": "Run",
     "Application.FirstAndLast.executor": "Run",
     "Application.HashEval.executor": "Run",
@@ -89,7 +90,33 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongestString">
+  <component name="RunManager" selected="Application.EmployeeEval">
+    <configuration name="CurrencyEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.CurrencyEval" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.gpt_challenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.EmployeeEval" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.gpt_challenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LongestString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.LongestString" />
       <module name="basictest15" />
@@ -116,32 +143,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.MergeSort" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.gpt_challenge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergeSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.MergeSorting" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.gpt_challenge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ValidParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.ValidParenthesis" />
       <module name="basictest15" />
@@ -157,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EmployeeEval" />
+        <item itemvalue="Application.CurrencyEval" />
         <item itemvalue="Application.LongestString" />
         <item itemvalue="Application.ValidParenthesis" />
         <item itemvalue="Application.Merge" />
-        <item itemvalue="Application.MergeSorting" />
-        <item itemvalue="Application.MergeSort" />
       </list>
     </recent_temporary>
   </component>
