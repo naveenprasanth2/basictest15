@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/Merge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/Currency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/LongestString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/ValidParenthesis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,10 +19,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
         <option value="Record" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -54,6 +57,7 @@
     "Application.JavaCollections.executor": "Run",
     "Application.LinkedInTest.executor": "Run",
     "Application.LinkedList.executor": "Run",
+    "Application.LongestString.executor": "Run",
     "Application.LongestSubstring.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Merge.executor": "Run",
@@ -65,6 +69,7 @@
     "Application.SmallestAndLargest.executor": "Run",
     "Application.StringEval.executor": "Run",
     "Application.TwoSum.executor": "Run",
+    "Application.ValidParenthesis.executor": "Run",
     "Application.org.example.xperi.Interview.executor": "Debug",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Maven.basictest15 [install].executor": "Run",
@@ -77,15 +82,16 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.gpt_challenge" />
       <recent name="org.example.interview1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Merge">
-    <configuration name="FirstAndLast" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.FirstAndLast" />
+  <component name="RunManager" selected="Application.LongestString">
+    <configuration name="LongestString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.LongestString" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
@@ -136,8 +142,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.PrintNumbers" />
+    <configuration name="ValidParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.ValidParenthesis" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
@@ -151,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestString" />
+        <item itemvalue="Application.ValidParenthesis" />
         <item itemvalue="Application.Merge" />
         <item itemvalue="Application.MergeSorting" />
         <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.FirstAndLast" />
-        <item itemvalue="Application.PrintNumbers" />
       </list>
     </recent_temporary>
   </component>
