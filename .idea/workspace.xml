@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/challenges/FindPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/challenges/SecondLargest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/latches/LatchEval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/challenges/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/challenges/Parent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/synechron/SmallestAndLargest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/synechron/SmallestAndLargest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +47,7 @@
     "Application.ArrayChallenge.executor": "Run",
     "Application.AverageSalary.executor": "Run",
     "Application.BTest.executor": "Run",
+    "Application.Child.executor": "Run",
     "Application.Common.executor": "Run",
     "Application.CurrencyEval.executor": "Run",
     "Application.EmployeeEval.executor": "Run",
@@ -97,13 +96,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindPairs">
-    <configuration name="FindDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.FindDuplicate" />
+  <component name="RunManager" selected="Application.Child">
+    <configuration name="Child" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.challenges.Child" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.gpt_challenge.*" />
+          <option name="PATTERN" value="org.example.challenges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Child" />
         <item itemvalue="Application.FindPairs" />
         <item itemvalue="Application.ReverseVowels" />
         <item itemvalue="Application.SecondLargest" />
         <item itemvalue="Application.LatchEval" />
-        <item itemvalue="Application.FindDuplicate" />
       </list>
     </recent_temporary>
   </component>
