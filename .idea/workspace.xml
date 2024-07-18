@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/challenges/FindPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/challenges/SecondLargest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/latches/LatchEval.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/synechron/SmallestAndLargest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/synechron/SmallestAndLargest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,12 +53,15 @@
     "Application.CurrencyEval.executor": "Run",
     "Application.EmployeeEval.executor": "Run",
     "Application.FindDuplicate.executor": "Run",
+    "Application.FindPairs.executor": "Run",
     "Application.FindUncommonCharacter.executor": "Run",
     "Application.FirstAndLast.executor": "Run",
     "Application.HashEval.executor": "Run",
     "Application.Interview.executor": "Run",
     "Application.IpAddressMatching.executor": "Run",
     "Application.JavaCollections.executor": "Run",
+    "Application.LatchEval (1).executor": "Run",
+    "Application.LatchEval.executor": "Run",
     "Application.LinkedInTest.executor": "Run",
     "Application.LinkedList.executor": "Run",
     "Application.LongestString.executor": "Run",
@@ -66,6 +73,7 @@
     "Application.MergeSorting.executor": "Run",
     "Application.PrintNumbers.executor": "Run",
     "Application.ReverseVowels.executor": "Run",
+    "Application.SecondLargest.executor": "Run",
     "Application.SmallestAndLargest.executor": "Run",
     "Application.StringEval.executor": "Run",
     "Application.TwoSum.executor": "Run",
@@ -89,46 +97,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindDuplicate">
-    <configuration name="AverageSalary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.AverageSalary" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.gpt_challenge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CurrencyEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.CurrencyEval" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.gpt_challenge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EmployeeEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.EmployeeEval" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.gpt_challenge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.FindPairs">
     <configuration name="FindDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.FindDuplicate" />
       <module name="basictest15" />
@@ -142,12 +111,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.LongestString" />
+    <configuration name="FindPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.challenges.FindPairs" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.gpt_challenge.*" />
+          <option name="PATTERN" value="org.example.challenges.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LatchEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.latches.LatchEval" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.latches.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseVowels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.challenges.ReverseVowels" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.challenges.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecondLargest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.challenges.SecondLargest" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.challenges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindPairs" />
+        <item itemvalue="Application.ReverseVowels" />
+        <item itemvalue="Application.SecondLargest" />
+        <item itemvalue="Application.LatchEval" />
         <item itemvalue="Application.FindDuplicate" />
-        <item itemvalue="Application.AverageSalary" />
-        <item itemvalue="Application.EmployeeEval" />
-        <item itemvalue="Application.CurrencyEval" />
-        <item itemvalue="Application.LongestString" />
       </list>
     </recent_temporary>
   </component>
