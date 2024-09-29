@@ -5,9 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/challenges/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/challenges/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/binary/SummaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/learn/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/learn/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lti/Count.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lti/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/Anagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/FindPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/FindUncommon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/LargestAndSmallest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/RevVowels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/ReverseVowels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/regex/GenericVariable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/regex/MultiThreadingComp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/test/Anagram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/synechron/FindUncommonCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/synechron/FindUncommonCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,21 +59,26 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AccountTest.executor": "Run",
+    "Application.Anagram.executor": "Run",
     "Application.ArrayChallenge.executor": "Run",
     "Application.AverageSalary.executor": "Run",
     "Application.BTest.executor": "Run",
     "Application.Child.executor": "Run",
     "Application.Common.executor": "Run",
+    "Application.Count.executor": "Run",
     "Application.CurrencyEval.executor": "Run",
     "Application.EmployeeEval.executor": "Run",
     "Application.FindDuplicate.executor": "Run",
     "Application.FindPairs.executor": "Run",
+    "Application.FindUncommon.executor": "Run",
     "Application.FindUncommonCharacter.executor": "Run",
     "Application.FirstAndLast.executor": "Run",
+    "Application.GenericVariable.executor": "Run",
     "Application.HashEval.executor": "Run",
     "Application.Interview.executor": "Run",
     "Application.IpAddressMatching.executor": "Run",
     "Application.JavaCollections.executor": "Run",
+    "Application.LargestAndSmallest.executor": "Run",
     "Application.LatchEval (1).executor": "Run",
     "Application.LatchEval.executor": "Run",
     "Application.LinkedInTest.executor": "Run",
@@ -70,13 +90,19 @@
     "Application.MergeIntervals.executor": "Run",
     "Application.MergeSort.executor": "Run",
     "Application.MergeSorting.executor": "Run",
+    "Application.MultiThreadingComp.executor": "Run",
     "Application.PrintNumbers.executor": "Run",
+    "Application.RevVowels.executor": "Run",
     "Application.ReverseVowels.executor": "Run",
     "Application.SecondLargest.executor": "Run",
     "Application.SmallestAndLargest.executor": "Run",
     "Application.StringEval.executor": "Run",
+    "Application.Student.executor": "Run",
+    "Application.StudentTest.executor": "Run",
+    "Application.Test.executor": "Run",
     "Application.TwoSum.executor": "Run",
     "Application.ValidParenthesis.executor": "Run",
+    "Application.org.example.practise.FindPairs.executor": "Run",
     "Application.org.example.xperi.Interview.executor": "Debug",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Maven.basictest15 [install].executor": "Run",
@@ -96,13 +122,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Child">
-    <configuration name="Child" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.challenges.Child" />
+  <component name="RunManager" selected="Application.RevVowels">
+    <configuration name="Anagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practise.Anagram" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.challenges.*" />
+          <option name="PATTERN" value="org.example.practise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LatchEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.latches.LatchEval" />
+    <configuration name="RevVowels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practise.RevVowels" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.latches.*" />
+          <option name="PATTERN" value="org.example.practise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +163,11 @@
       </method>
     </configuration>
     <configuration name="ReverseVowels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.challenges.ReverseVowels" />
+      <option name="MAIN_CLASS_NAME" value="org.example.practise.ReverseVowels" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.challenges.*" />
+          <option name="PATTERN" value="org.example.practise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,12 +175,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondLargest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.challenges.SecondLargest" />
+    <configuration name="org.example.practise.FindPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practise.FindPairs" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.challenges.*" />
+          <option name="PATTERN" value="org.example.practise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Child" />
-        <item itemvalue="Application.FindPairs" />
+        <item itemvalue="Application.RevVowels" />
         <item itemvalue="Application.ReverseVowels" />
-        <item itemvalue="Application.SecondLargest" />
-        <item itemvalue="Application.LatchEval" />
+        <item itemvalue="Application.org.example.practise.FindPairs" />
+        <item itemvalue="Application.FindPairs" />
+        <item itemvalue="Application.Anagram" />
       </list>
     </recent_temporary>
   </component>
