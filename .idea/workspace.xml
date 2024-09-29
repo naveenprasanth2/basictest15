@@ -5,24 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/binary/SummaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/learn/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/learn/StudentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lti/Count.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lti/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/Anagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/FindPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/FindUncommon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/LargestAndSmallest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/RevVowels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/ReverseVowels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/regex/GenericVariable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/regex/MultiThreadingComp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/test/Anagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenges/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenges/PatternMatchingInstanceof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenges/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenges/RandomNumberGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenges/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenges/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenges/ShapeEval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenges/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenges/SwitchExpressionExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/synechron/FindUncommonCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/synechron/FindUncommonCharacter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,13 +84,17 @@
     "Application.MergeSorting.executor": "Run",
     "Application.MultiThreadingComp.executor": "Run",
     "Application.PrintNumbers.executor": "Run",
+    "Application.RandomNumberGenerator.executor": "Run",
+    "Application.RecordExample.executor": "Run",
     "Application.RevVowels.executor": "Run",
     "Application.ReverseVowels.executor": "Run",
     "Application.SecondLargest.executor": "Run",
+    "Application.ShapeEval.executor": "Run",
     "Application.SmallestAndLargest.executor": "Run",
     "Application.StringEval.executor": "Run",
     "Application.Student.executor": "Run",
     "Application.StudentTest.executor": "Run",
+    "Application.SwitchExpressionExample.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.TwoSum.executor": "Run",
     "Application.ValidParenthesis.executor": "Run",
@@ -122,13 +118,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RevVowels">
-    <configuration name="Anagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise.Anagram" />
+  <component name="RunManager" selected="Application.RandomNumberGenerator">
+    <configuration name="RandomNumberGenerator (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenges.RandomNumberGenerator" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.practise.*" />
+          <option name="PATTERN" value="org.example.gpt_challenges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.challenges.FindPairs" />
+    <configuration name="RandomNumberGenerator (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenges.RandomNumberGenerator" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.challenges.*" />
+          <option name="PATTERN" value="org.example.gpt_challenges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RevVowels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise.RevVowels" />
+    <configuration name="RandomNumberGenerator (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenges.RandomNumberGenerator" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.practise.*" />
+          <option name="PATTERN" value="org.example.gpt_challenges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseVowels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise.ReverseVowels" />
+    <configuration name="RandomNumberGenerator (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenges.RandomNumberGenerator" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.practise.*" />
+          <option name="PATTERN" value="org.example.gpt_challenges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.practise.FindPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise.FindPairs" />
+    <configuration name="RandomNumberGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenges.RandomNumberGenerator" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.practise.*" />
+          <option name="PATTERN" value="org.example.gpt_challenges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RevVowels" />
-        <item itemvalue="Application.ReverseVowels" />
-        <item itemvalue="Application.org.example.practise.FindPairs" />
-        <item itemvalue="Application.FindPairs" />
-        <item itemvalue="Application.Anagram" />
+        <item itemvalue="Application.RandomNumberGenerator" />
+        <item itemvalue="Application.RandomNumberGenerator (5)" />
+        <item itemvalue="Application.RandomNumberGenerator (4)" />
+        <item itemvalue="Application.RandomNumberGenerator (3)" />
+        <item itemvalue="Application.RandomNumberGenerator (2)" />
       </list>
     </recent_temporary>
   </component>
