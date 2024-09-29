@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenges/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenges/PatternMatchingInstanceof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenges/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenges/RandomNumberGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenges/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenges/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenges/ShapeEval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenges/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenges/SwitchExpressionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/FirstAndLastOccurrence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/FirstNonRepCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/FlatMaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/Frequency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/ReverseArraySubset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenges/ImmutableCollections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenges/RandomGeneratorEval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenges/SortedArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,8 +64,13 @@
     "Application.FindUncommon.executor": "Run",
     "Application.FindUncommonCharacter.executor": "Run",
     "Application.FirstAndLast.executor": "Run",
+    "Application.FirstAndLastOccurrence.executor": "Run",
+    "Application.FirstNonRepCharacter.executor": "Run",
+    "Application.FlatMaps.executor": "Run",
+    "Application.Frequency.executor": "Run",
     "Application.GenericVariable.executor": "Run",
     "Application.HashEval.executor": "Run",
+    "Application.ImmutableCollections.executor": "Run",
     "Application.Interview.executor": "Run",
     "Application.IpAddressMatching.executor": "Run",
     "Application.JavaCollections.executor": "Run",
@@ -84,13 +88,21 @@
     "Application.MergeSorting.executor": "Run",
     "Application.MultiThreadingComp.executor": "Run",
     "Application.PrintNumbers.executor": "Run",
+    "Application.RandomGeneratorEval.executor": "Run",
+    "Application.RandomNumberGenerator (1).executor": "Run",
+    "Application.RandomNumberGenerator (2).executor": "Run",
+    "Application.RandomNumberGenerator (3).executor": "Run",
+    "Application.RandomNumberGenerator (4).executor": "Run",
+    "Application.RandomNumberGenerator (5).executor": "Run",
     "Application.RandomNumberGenerator.executor": "Run",
     "Application.RecordExample.executor": "Run",
     "Application.RevVowels.executor": "Run",
+    "Application.ReverseArraySubset.executor": "Run",
     "Application.ReverseVowels.executor": "Run",
     "Application.SecondLargest.executor": "Run",
     "Application.ShapeEval.executor": "Run",
     "Application.SmallestAndLargest.executor": "Run",
+    "Application.SortedArray.executor": "Run",
     "Application.StringEval.executor": "Run",
     "Application.Student.executor": "Run",
     "Application.StudentTest.executor": "Run",
@@ -118,13 +130,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RandomNumberGenerator">
-    <configuration name="RandomNumberGenerator (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenges.RandomNumberGenerator" />
+  <component name="RunManager" selected="Application.FirstAndLastOccurrence">
+    <configuration name="FirstAndLastOccurrence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.FirstAndLastOccurrence" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.gpt_challenges.*" />
+          <option name="PATTERN" value="org.example.gpt_challenge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomNumberGenerator (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenges.RandomNumberGenerator" />
+    <configuration name="FirstNonRepCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.FirstNonRepCharacter" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.gpt_challenges.*" />
+          <option name="PATTERN" value="org.example.gpt_challenge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomNumberGenerator (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenges.RandomNumberGenerator" />
+    <configuration name="FlatMaps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.FlatMaps" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.gpt_challenges.*" />
+          <option name="PATTERN" value="org.example.gpt_challenge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +170,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomNumberGenerator (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenges.RandomNumberGenerator" />
+    <configuration name="Frequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.Frequency" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.gpt_challenges.*" />
+          <option name="PATTERN" value="org.example.gpt_challenge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,12 +183,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomNumberGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenges.RandomNumberGenerator" />
+    <configuration name="ReverseArraySubset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.ReverseArraySubset" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.gpt_challenges.*" />
+          <option name="PATTERN" value="org.example.gpt_challenge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RandomNumberGenerator" />
-        <item itemvalue="Application.RandomNumberGenerator (5)" />
-        <item itemvalue="Application.RandomNumberGenerator (4)" />
-        <item itemvalue="Application.RandomNumberGenerator (3)" />
-        <item itemvalue="Application.RandomNumberGenerator (2)" />
+        <item itemvalue="Application.FirstAndLastOccurrence" />
+        <item itemvalue="Application.ReverseArraySubset" />
+        <item itemvalue="Application.Frequency" />
+        <item itemvalue="Application.FirstNonRepCharacter" />
+        <item itemvalue="Application.FlatMaps" />
       </list>
     </recent_temporary>
   </component>
