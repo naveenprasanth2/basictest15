@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/PutAllZerosAtEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/SecondMostFrequent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenges/OptionalExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenges/PrintNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenges/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenges/UserExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenges/ValidParenthesis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,6 +84,7 @@
     "Application.MergeSort.executor": "Run",
     "Application.MergeSorting.executor": "Run",
     "Application.MultiThreadingComp.executor": "Run",
+    "Application.OptionalExample.executor": "Run",
     "Application.PrintNumbers.executor": "Run",
     "Application.PutAllZerosAtEnd.executor": "Run",
     "Application.RandomGeneratorEval.executor": "Run",
@@ -105,6 +109,7 @@
     "Application.SwitchExpressionExample.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.TwoSum.executor": "Run",
+    "Application.UserExample.executor": "Run",
     "Application.ValidParenthesis.executor": "Run",
     "Application.org.example.practise.FindPairs.executor": "Run",
     "Application.org.example.xperi.Interview.executor": "Debug",
@@ -126,13 +131,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SecondMostFrequent">
-    <configuration name="FirstAndLastOccurrence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.FirstAndLastOccurrence" />
+  <component name="RunManager" selected="Application.OptionalExample">
+    <configuration name="OptionalExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenges.OptionalExample" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.gpt_challenge.*" />
+          <option name="PATTERN" value="org.example.gpt_challenges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Frequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.Frequency" />
+    <configuration name="PrintNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenges.PrintNumbers" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.gpt_challenge.*" />
+          <option name="PATTERN" value="org.example.gpt_challenges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,19 +160,6 @@
     </configuration>
     <configuration name="PutAllZerosAtEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.PutAllZerosAtEnd" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.gpt_challenge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseArraySubset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.ReverseArraySubset" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
@@ -192,13 +184,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenges.UserExample" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.gpt_challenges.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OptionalExample" />
+        <item itemvalue="Application.UserExample" />
+        <item itemvalue="Application.PrintNumbers" />
         <item itemvalue="Application.SecondMostFrequent" />
         <item itemvalue="Application.PutAllZerosAtEnd" />
-        <item itemvalue="Application.FirstAndLastOccurrence" />
-        <item itemvalue="Application.ReverseArraySubset" />
-        <item itemvalue="Application.Frequency" />
       </list>
     </recent_temporary>
   </component>
