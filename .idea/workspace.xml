@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/FirstAndLastOccurrence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/FirstNonRepCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/FlatMaps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/Frequency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/ReverseArraySubset.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenges/ImmutableCollections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenges/RandomGeneratorEval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenges/SortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/PutAllZerosAtEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/SecondMostFrequent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,6 +82,7 @@
     "Application.MergeSorting.executor": "Run",
     "Application.MultiThreadingComp.executor": "Run",
     "Application.PrintNumbers.executor": "Run",
+    "Application.PutAllZerosAtEnd.executor": "Run",
     "Application.RandomGeneratorEval.executor": "Run",
     "Application.RandomNumberGenerator (1).executor": "Run",
     "Application.RandomNumberGenerator (2).executor": "Run",
@@ -100,6 +95,7 @@
     "Application.ReverseArraySubset.executor": "Run",
     "Application.ReverseVowels.executor": "Run",
     "Application.SecondLargest.executor": "Run",
+    "Application.SecondMostFrequent.executor": "Run",
     "Application.ShapeEval.executor": "Run",
     "Application.SmallestAndLargest.executor": "Run",
     "Application.SortedArray.executor": "Run",
@@ -130,35 +126,9 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FirstAndLastOccurrence">
+  <component name="RunManager" selected="Application.SecondMostFrequent">
     <configuration name="FirstAndLastOccurrence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.FirstAndLastOccurrence" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.gpt_challenge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstNonRepCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.FirstNonRepCharacter" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.gpt_challenge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FlatMaps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.FlatMaps" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
@@ -183,6 +153,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PutAllZerosAtEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.PutAllZerosAtEnd" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.gpt_challenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReverseArraySubset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.ReverseArraySubset" />
       <module name="basictest15" />
@@ -196,13 +179,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SecondMostFrequent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.SecondMostFrequent" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.gpt_challenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SecondMostFrequent" />
+        <item itemvalue="Application.PutAllZerosAtEnd" />
         <item itemvalue="Application.FirstAndLastOccurrence" />
         <item itemvalue="Application.ReverseArraySubset" />
         <item itemvalue="Application.Frequency" />
-        <item itemvalue="Application.FirstNonRepCharacter" />
-        <item itemvalue="Application.FlatMaps" />
       </list>
     </recent_temporary>
   </component>
@@ -234,6 +230,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/LinkedList.java</url>
           <line>49</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/PutAllZerosAtEnd.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
