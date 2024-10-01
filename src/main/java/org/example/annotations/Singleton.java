@@ -6,17 +6,12 @@ public class Singleton implements Cloneable, Serializable {
     private Singleton() {
     }
 
-    private static volatile Singleton singleton;
+    private static final class SingletonHolder {
+        private static final Singleton singleton = new Singleton();
+    }
 
     public static Singleton getInstance() {
-        if (singleton == null) {
-            synchronized (Singleton.class) {
-                if (singleton == null){
-                    singleton = new Singleton();
-                }
-            }
-        }
-        return singleton;
+        return SingletonHolder.singleton;
     }
 
     @Override
