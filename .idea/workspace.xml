@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenges/OptionalExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenges/PrintNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenges/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenges/UserExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenges/ValidParenthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotations/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotations/CatEval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotations/CloneableBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotations/ImportantString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotations/ReflectionBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotations/RunImmediately.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotations/SerializableBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotations/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotations/VeryImportant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/reflections/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/reflections/ReflectionEval.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,9 +26,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Record" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -51,7 +57,9 @@
     "Application.ArrayChallenge.executor": "Run",
     "Application.AverageSalary.executor": "Run",
     "Application.BTest.executor": "Run",
+    "Application.CatEval.executor": "Run",
     "Application.Child.executor": "Run",
+    "Application.CloneableBreak.executor": "Run",
     "Application.Common.executor": "Run",
     "Application.Count.executor": "Run",
     "Application.CurrencyEval.executor": "Run",
@@ -95,11 +103,14 @@
     "Application.RandomNumberGenerator (5).executor": "Run",
     "Application.RandomNumberGenerator.executor": "Run",
     "Application.RecordExample.executor": "Run",
+    "Application.ReflectionBreak.executor": "Run",
+    "Application.ReflectionEval.executor": "Run",
     "Application.RevVowels.executor": "Run",
     "Application.ReverseArraySubset.executor": "Run",
     "Application.ReverseVowels.executor": "Run",
     "Application.SecondLargest.executor": "Run",
     "Application.SecondMostFrequent.executor": "Run",
+    "Application.SerializableBreak.executor": "Run",
     "Application.ShapeEval.executor": "Run",
     "Application.SmallestAndLargest.executor": "Run",
     "Application.SortedArray.executor": "Run",
@@ -131,13 +142,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OptionalExample">
-    <configuration name="OptionalExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenges.OptionalExample" />
+  <component name="RunManager" selected="Application.ReflectionBreak">
+    <configuration name="CatEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.annotations.CatEval" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.gpt_challenges.*" />
+          <option name="PATTERN" value="org.example.annotations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenges.PrintNumbers" />
+    <configuration name="CloneableBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.annotations.CloneableBreak" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.gpt_challenges.*" />
+          <option name="PATTERN" value="org.example.annotations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +169,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PutAllZerosAtEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.PutAllZerosAtEnd" />
+    <configuration name="ReflectionBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.annotations.ReflectionBreak" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.gpt_challenge.*" />
+          <option name="PATTERN" value="org.example.annotations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,12 +182,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondMostFrequent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.SecondMostFrequent" />
+    <configuration name="ReflectionEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.reflections.ReflectionEval" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.gpt_challenge.*" />
+          <option name="PATTERN" value="org.example.reflections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,12 +195,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenges.UserExample" />
+    <configuration name="SerializableBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.annotations.SerializableBreak" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.gpt_challenges.*" />
+          <option name="PATTERN" value="org.example.annotations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -199,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OptionalExample" />
-        <item itemvalue="Application.UserExample" />
-        <item itemvalue="Application.PrintNumbers" />
-        <item itemvalue="Application.SecondMostFrequent" />
-        <item itemvalue="Application.PutAllZerosAtEnd" />
+        <item itemvalue="Application.ReflectionBreak" />
+        <item itemvalue="Application.SerializableBreak" />
+        <item itemvalue="Application.CloneableBreak" />
+        <item itemvalue="Application.CatEval" />
+        <item itemvalue="Application.ReflectionEval" />
       </list>
     </recent_temporary>
   </component>
