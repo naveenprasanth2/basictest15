@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotations/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotations/DogEval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotations/RunAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threads/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threads/Buffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threads/EvenOrOddUsingThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threads/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threads/BinaryRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threads/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threads/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/threads/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/threads/InsertionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +50,8 @@
     "Application.ArrayChallenge.executor": "Run",
     "Application.AverageSalary.executor": "Run",
     "Application.BTest.executor": "Run",
+    "Application.BinaryRecursion.executor": "Run",
+    "Application.BinarySearch.executor": "Run",
     "Application.BubbleSort.executor": "Run",
     "Application.CatEval.executor": "Run",
     "Application.Child.executor": "Run",
@@ -75,6 +74,7 @@
     "Application.GenericVariable.executor": "Run",
     "Application.HashEval.executor": "Run",
     "Application.ImmutableCollections.executor": "Run",
+    "Application.InsertionSort.executor": "Run",
     "Application.Interview.executor": "Run",
     "Application.IpAddressMatching.executor": "Run",
     "Application.JavaCollections.executor": "Run",
@@ -141,9 +141,9 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InsertionSort">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.threads.BubbleSort" />
+  <component name="RunManager" selected="Application.BinaryRecursion">
+    <configuration name="BinaryRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.threads.BinaryRecursion" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
@@ -155,12 +155,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DogEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.annotations.DogEval" />
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.threads.BinarySearch" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.annotations.*" />
+          <option name="PATTERN" value="org.example.threads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.threads.BubbleSort" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.threads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,26 +207,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReflectionBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.annotations.ReflectionBreak" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.annotations.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryRecursion" />
+        <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.EvenOrOddUsingThread" />
-        <item itemvalue="Application.DogEval" />
-        <item itemvalue="Application.ReflectionBreak" />
       </list>
     </recent_temporary>
   </component>
