@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotations/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotations/CatEval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotations/CloneableBreak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotations/ImportantString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotations/ReflectionBreak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotations/RunImmediately.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotations/SerializableBreak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotations/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotations/VeryImportant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/reflections/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/reflections/ReflectionEval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotations/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotations/DogEval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotations/RunAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threads/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threads/Buffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threads/EvenOrOddUsingThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threads/InsertionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,13 +53,16 @@
     "Application.ArrayChallenge.executor": "Run",
     "Application.AverageSalary.executor": "Run",
     "Application.BTest.executor": "Run",
+    "Application.BubbleSort.executor": "Run",
     "Application.CatEval.executor": "Run",
     "Application.Child.executor": "Run",
     "Application.CloneableBreak.executor": "Run",
     "Application.Common.executor": "Run",
     "Application.Count.executor": "Run",
     "Application.CurrencyEval.executor": "Run",
+    "Application.DogEval.executor": "Run",
     "Application.EmployeeEval.executor": "Run",
+    "Application.EvenOrOddUsingThread.executor": "Run",
     "Application.FindDuplicate.executor": "Run",
     "Application.FindPairs.executor": "Run",
     "Application.FindUncommon.executor": "Run",
@@ -142,9 +141,22 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReflectionBreak">
-    <configuration name="CatEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.annotations.CatEval" />
+  <component name="RunManager" selected="Application.InsertionSort">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.threads.BubbleSort" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.threads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DogEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.annotations.DogEval" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
@@ -156,12 +168,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CloneableBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.annotations.CloneableBreak" />
+    <configuration name="EvenOrOddUsingThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.threads.EvenOrOddUsingThread" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.annotations.*" />
+          <option name="PATTERN" value="org.example.threads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.threads.InsertionSort" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.threads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,39 +207,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReflectionEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.reflections.ReflectionEval" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.reflections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SerializableBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.annotations.SerializableBreak" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.annotations.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InsertionSort" />
+        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.EvenOrOddUsingThread" />
+        <item itemvalue="Application.DogEval" />
         <item itemvalue="Application.ReflectionBreak" />
-        <item itemvalue="Application.SerializableBreak" />
-        <item itemvalue="Application.CloneableBreak" />
-        <item itemvalue="Application.CatEval" />
-        <item itemvalue="Application.ReflectionEval" />
       </list>
     </recent_temporary>
   </component>
