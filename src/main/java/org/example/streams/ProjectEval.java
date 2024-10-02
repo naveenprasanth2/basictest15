@@ -43,7 +43,7 @@ public class ProjectEval {
                         .filter(Task::isCompleted).count() /x.getTasks().size()) > 0.8)
                 .flatMap(x -> x.getTasks().stream())
                 .sorted((x1, x2) -> x2.priority() - x1.priority())
-                .collect(Collectors.groupingBy(Task::isCompleted))
+                .collect(Collectors.groupingBy(x -> x.isCompleted() ? "Completed" : "Not Completed"))
                 .entrySet().forEach(System.out::println);
 
     }

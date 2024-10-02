@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/ProjectEval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/EmployeeEval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/TransactionProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/streams/ProjectEval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/ProjectEval.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +120,9 @@
     "Application.StudentTest.executor": "Run",
     "Application.SwitchExpressionExample.executor": "Run",
     "Application.Test.executor": "Run",
+    "Application.TransactionProcessor (1).executor": "Run",
+    "Application.TransactionProcessor (2).executor": "Run",
+    "Application.TransactionProcessor.executor": "Run",
     "Application.TwoSum.executor": "Run",
     "Application.UserExample.executor": "Run",
     "Application.ValidParenthesis.executor": "Run",
@@ -141,48 +146,9 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProjectEval">
-    <configuration name="BinaryRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.threads.BinaryRecursion" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.threads.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.threads.BinarySearch" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.threads.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomerEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.streams.CustomerEval" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DepartmentStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.streams.DepartmentStreamExample" />
+  <component name="RunManager" selected="Application.TransactionProcessor">
+    <configuration name="EmployeeEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.streams.EmployeeEval" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
@@ -207,13 +173,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TransactionProcessor (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.streams.TransactionProcessor" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransactionProcessor (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.streams.TransactionProcessor" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransactionProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.streams.TransactionProcessor" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TransactionProcessor" />
+        <item itemvalue="Application.TransactionProcessor (2)" />
+        <item itemvalue="Application.TransactionProcessor (1)" />
+        <item itemvalue="Application.EmployeeEval" />
         <item itemvalue="Application.ProjectEval" />
-        <item itemvalue="Application.CustomerEval" />
-        <item itemvalue="Application.DepartmentStreamExample" />
-        <item itemvalue="Application.BinaryRecursion" />
-        <item itemvalue="Application.BinarySearch" />
       </list>
     </recent_temporary>
   </component>
