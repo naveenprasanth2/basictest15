@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threads/JumpSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threads/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/DepartmentStreamExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/streams/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/Department.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +19,8 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -59,6 +57,7 @@
     "Application.Common.executor": "Run",
     "Application.Count.executor": "Run",
     "Application.CurrencyEval.executor": "Run",
+    "Application.DepartmentStreamExample.executor": "Run",
     "Application.DogEval.executor": "Run",
     "Application.EmployeeEval.executor": "Run",
     "Application.EvenOrOddUsingThread.executor": "Run",
@@ -141,7 +140,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinaryRecursion">
+  <component name="RunManager" selected="Application.DepartmentStreamExample">
     <configuration name="BinaryRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.threads.BinaryRecursion" />
       <module name="basictest15" />
@@ -181,12 +180,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EvenOrOddUsingThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.threads.EvenOrOddUsingThread" />
+    <configuration name="DepartmentStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.streams.DepartmentStreamExample" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.threads.*" />
+          <option name="PATTERN" value="org.example.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DepartmentStreamExample" />
         <item itemvalue="Application.BinaryRecursion" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.EvenOrOddUsingThread" />
       </list>
     </recent_temporary>
   </component>
