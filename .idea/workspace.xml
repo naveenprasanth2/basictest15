@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/EmployeeEval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/TransactionProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/NthConsecutive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/TwoDimensional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/EnumEval.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/streams/ProjectEval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/ProjectEval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/streams/TransactionProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/TransactionProcessor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +63,11 @@
     "Application.DepartmentStreamExample.executor": "Run",
     "Application.DogEval.executor": "Run",
     "Application.EmployeeEval.executor": "Run",
+    "Application.EnumEval (1).executor": "Run",
+    "Application.EnumEval (2).executor": "Run",
+    "Application.EnumEval (3).executor": "Run",
+    "Application.EnumEval (4).executor": "Run",
+    "Application.EnumEval.executor": "Run",
     "Application.EvenOrOddUsingThread.executor": "Run",
     "Application.FindDuplicate.executor": "Run",
     "Application.FindPairs.executor": "Run",
@@ -92,6 +98,7 @@
     "Application.MergeSort.executor": "Run",
     "Application.MergeSorting.executor": "Run",
     "Application.MultiThreadingComp.executor": "Run",
+    "Application.NthConsecutive.executor": "Run",
     "Application.OptionalExample.executor": "Run",
     "Application.PrintNumbers.executor": "Run",
     "Application.ProjectEval.executor": "Run",
@@ -123,6 +130,7 @@
     "Application.TransactionProcessor (1).executor": "Run",
     "Application.TransactionProcessor (2).executor": "Run",
     "Application.TransactionProcessor.executor": "Run",
+    "Application.TwoDimensional.executor": "Run",
     "Application.TwoSum.executor": "Run",
     "Application.UserExample.executor": "Run",
     "Application.ValidParenthesis.executor": "Run",
@@ -146,9 +154,9 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TransactionProcessor">
-    <configuration name="EmployeeEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.streams.EmployeeEval" />
+  <component name="RunManager" selected="Application.TwoDimensional">
+    <configuration name="EnumEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.streams.EnumEval" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
@@ -160,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProjectEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.streams.ProjectEval" />
+    <configuration name="NthConsecutive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practise.NthConsecutive" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.streams.*" />
+          <option name="PATTERN" value="org.example.practise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,38 +181,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransactionProcessor (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.streams.TransactionProcessor" />
+    <configuration name="TwoDimensional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practise.TwoDimensional" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TransactionProcessor (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.streams.TransactionProcessor" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TransactionProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.streams.TransactionProcessor" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.streams.*" />
+          <option name="PATTERN" value="org.example.practise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,11 +196,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TransactionProcessor" />
-        <item itemvalue="Application.TransactionProcessor (2)" />
-        <item itemvalue="Application.TransactionProcessor (1)" />
-        <item itemvalue="Application.EmployeeEval" />
-        <item itemvalue="Application.ProjectEval" />
+        <item itemvalue="Application.TwoDimensional" />
+        <item itemvalue="Application.NthConsecutive" />
+        <item itemvalue="Application.EnumEval" />
       </list>
     </recent_temporary>
   </component>

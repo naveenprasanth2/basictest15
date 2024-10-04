@@ -4,9 +4,11 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.ToString;
 
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class TransactionProcessor {
@@ -23,7 +25,7 @@ public class TransactionProcessor {
                 new Transaction(9, TransactionType.WITHDRAWAL, 1000.0, Status.SUCCESS),
                 new Transaction(10, TransactionType.DEPOSIT, 1500.0, Status.SUCCESS)
         );
-        
+
         Map<Status, List<Transaction>> test = transactions.stream().filter(x -> x.getAmount() > 0)
                 .collect(Collectors.groupingBy(Transaction::getStatus));
         test.forEach((key, value) -> test.put(key, value.stream().sorted((x1, x2) ->  Double.compare(x2.getAmount() , x1.getAmount())).toList()));
