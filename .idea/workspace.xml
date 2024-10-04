@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/annotations/JsonField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/annotations/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/annotations/SerializeClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/comparator/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/comparator/EmployeeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/comparator/Singleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +61,7 @@
     "Application.DepartmentStreamExample.executor": "Run",
     "Application.DogEval.executor": "Run",
     "Application.EmployeeEval.executor": "Run",
+    "Application.EmployeeTest.executor": "Run",
     "Application.EnumEval (1).executor": "Run",
     "Application.EnumEval (2).executor": "Run",
     "Application.EnumEval (3).executor": "Run",
@@ -155,7 +154,20 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SerializeClass">
+  <component name="RunManager" selected="Application.EmployeeTest">
+    <configuration name="EmployeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.comparator.EmployeeTest" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.chatgpt.comparator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EnumEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.streams.EnumEval" />
       <module name="basictest15" />
@@ -210,6 +222,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EmployeeTest" />
         <item itemvalue="Application.SerializeClass" />
         <item itemvalue="Application.TwoDimensional" />
         <item itemvalue="Application.NthConsecutive" />
