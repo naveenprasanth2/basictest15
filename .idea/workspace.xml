@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/comparator/EmployeeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/comparator/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/threads/DeadLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/threads/ThreadPoolExecutor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +58,7 @@
     "Application.Count.executor": "Run",
     "Application.CurrencyEval.executor": "Run",
     "Application.CustomerEval.executor": "Run",
+    "Application.DeadLock.executor": "Run",
     "Application.DepartmentStreamExample.executor": "Run",
     "Application.DogEval.executor": "Run",
     "Application.EmployeeEval.executor": "Run",
@@ -154,13 +155,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EmployeeTest">
-    <configuration name="EmployeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.comparator.EmployeeTest" />
+  <component name="RunManager" selected="Application.DeadLock">
+    <configuration name="DeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.threads.DeadLock" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.chatgpt.comparator.*" />
+          <option name="PATTERN" value="org.example.chatgpt.threads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,12 +169,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.streams.EnumEval" />
+    <configuration name="EmployeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.comparator.EmployeeTest" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.streams.*" />
+          <option name="PATTERN" value="org.example.chatgpt.comparator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -222,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeadLock" />
         <item itemvalue="Application.EmployeeTest" />
         <item itemvalue="Application.SerializeClass" />
         <item itemvalue="Application.TwoDimensional" />
         <item itemvalue="Application.NthConsecutive" />
-        <item itemvalue="Application.EnumEval" />
       </list>
     </recent_temporary>
   </component>
