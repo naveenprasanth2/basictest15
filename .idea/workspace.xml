@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/generic/LongestSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/threads/Countdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/threads/Latch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +57,7 @@
     "Application.CloneableBreak.executor": "Run",
     "Application.Common.executor": "Run",
     "Application.Count.executor": "Run",
+    "Application.Countdown.executor": "Run",
     "Application.CurrencyEval.executor": "Run",
     "Application.CustomerEval.executor": "Run",
     "Application.DeadLock.executor": "Run",
@@ -154,22 +158,9 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReflectionBreak">
-    <configuration name="DeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.threads.DeadLock" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.chatgpt.threads.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DeadLock1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.threads.DeadLock1" />
+  <component name="RunManager" selected="Application.Countdown">
+    <configuration name="Countdown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.threads.Countdown" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
@@ -187,6 +178,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.chatgpt.comparator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.generic.LongestSubstring" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.chatgpt.generic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -222,11 +226,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReflectionBreak" />
-        <item itemvalue="Application.DeadLock1" />
-        <item itemvalue="Application.DeadLock" />
-        <item itemvalue="Application.EmployeeTest" />
+        <item itemvalue="Application.Countdown" />
+        <item itemvalue="Application.LongestSubstring" />
         <item itemvalue="Application.SerializeClass" />
+        <item itemvalue="Application.ReflectionBreak" />
+        <item itemvalue="Application.EmployeeTest" />
       </list>
     </recent_temporary>
   </component>
