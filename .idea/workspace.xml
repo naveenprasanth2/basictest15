@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/streams/LongestNameByDepartment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/java8/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/java8/EmployeePerformance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,122 +43,123 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AccountTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Anagram.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayChallenge.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AverageSalary.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BinaryRecursion.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BubbleSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CatEval.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Child.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CloneableBreak.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Common.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Count.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CountDownLatchExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Countdown.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CurrencyEval.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CustomerEval.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CyclicBarrierEval.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DeadLock.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DeadLock1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DepartmentStreamExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DogEval.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EmployeeEval.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EmployeeFilters.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EmployeeTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EnumEval (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.EnumEval (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.EnumEval (3).executor&quot;: &quot;Run&quot;,
-    &quot;Application.EnumEval (4).executor&quot;: &quot;Run&quot;,
-    &quot;Application.EnumEval.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EvenOrOddUsingThread.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindDuplicate.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindPairs.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindUncommon.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindUncommonCharacter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FirstAndLast.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FirstAndLastOccurrence.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FirstNonRepCharacter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FlatMaps.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Frequency.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GenericVariable.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Grouping.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HashEval.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ImmutableCollections.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InsertionSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Interview.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IpAddressMatching.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JavaCollections.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LargestAndSmallest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LatchEval (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.LatchEval.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedInTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestNameByDepartment.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestSubstring.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Merge.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MergeIntervals.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MergeSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MergeSorting.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MultiLevelGrouping.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MultiThreadingComp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NthConsecutive.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NthFibonacciNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OptionalExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ParkingLot.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PhaserEval.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrintNumbers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProjectEval.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PutAllZerosAtEnd.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RandomGeneratorEval.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RandomNumberGenerator (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.RandomNumberGenerator (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.RandomNumberGenerator (3).executor&quot;: &quot;Run&quot;,
-    &quot;Application.RandomNumberGenerator (4).executor&quot;: &quot;Run&quot;,
-    &quot;Application.RandomNumberGenerator (5).executor&quot;: &quot;Run&quot;,
-    &quot;Application.RandomNumberGenerator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RecordExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReflectionBreak.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReflectionEval.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RevVowels.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseArraySubset.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseVowels.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SecondLargest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SecondMostFrequent.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SerializableBreak.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SerializeClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ShapeEval.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SmallestAndLargest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SortedArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringEval.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Student.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StudentTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SwitchExpressionExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TransactionProcessor (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.TransactionProcessor (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.TransactionProcessor.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TwoDimensional.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TwoSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UserExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ValidParenthesis.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.example.practise.FindPairs.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.example.xperi.Interview.executor&quot;: &quot;Debug&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.basictest15 [install].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AccountTest.executor": "Run",
+    "Application.Anagram.executor": "Run",
+    "Application.ArrayChallenge.executor": "Run",
+    "Application.AverageSalary.executor": "Run",
+    "Application.BTest.executor": "Run",
+    "Application.BinaryRecursion.executor": "Run",
+    "Application.BinarySearch.executor": "Run",
+    "Application.BubbleSort.executor": "Run",
+    "Application.CatEval.executor": "Run",
+    "Application.Child.executor": "Run",
+    "Application.CloneableBreak.executor": "Run",
+    "Application.Common.executor": "Run",
+    "Application.Count.executor": "Run",
+    "Application.CountDownLatchExample.executor": "Run",
+    "Application.Countdown.executor": "Run",
+    "Application.CurrencyEval.executor": "Run",
+    "Application.CustomerEval.executor": "Run",
+    "Application.CyclicBarrierEval.executor": "Run",
+    "Application.DeadLock.executor": "Run",
+    "Application.DeadLock1.executor": "Run",
+    "Application.DepartmentStreamExample.executor": "Run",
+    "Application.DogEval.executor": "Run",
+    "Application.EmployeeEval.executor": "Run",
+    "Application.EmployeeFilters.executor": "Run",
+    "Application.EmployeePerformance.executor": "Run",
+    "Application.EmployeeTest.executor": "Run",
+    "Application.EnumEval (1).executor": "Run",
+    "Application.EnumEval (2).executor": "Run",
+    "Application.EnumEval (3).executor": "Run",
+    "Application.EnumEval (4).executor": "Run",
+    "Application.EnumEval.executor": "Run",
+    "Application.EvenOrOddUsingThread.executor": "Run",
+    "Application.FindDuplicate.executor": "Run",
+    "Application.FindPairs.executor": "Run",
+    "Application.FindUncommon.executor": "Run",
+    "Application.FindUncommonCharacter.executor": "Run",
+    "Application.FirstAndLast.executor": "Run",
+    "Application.FirstAndLastOccurrence.executor": "Run",
+    "Application.FirstNonRepCharacter.executor": "Run",
+    "Application.FlatMaps.executor": "Run",
+    "Application.Frequency.executor": "Run",
+    "Application.GenericVariable.executor": "Run",
+    "Application.Grouping.executor": "Run",
+    "Application.HashEval.executor": "Run",
+    "Application.ImmutableCollections.executor": "Run",
+    "Application.InsertionSort.executor": "Run",
+    "Application.Interview.executor": "Run",
+    "Application.IpAddressMatching.executor": "Run",
+    "Application.JavaCollections.executor": "Run",
+    "Application.LargestAndSmallest.executor": "Run",
+    "Application.LatchEval (1).executor": "Run",
+    "Application.LatchEval.executor": "Run",
+    "Application.LinkedInTest.executor": "Run",
+    "Application.LinkedList.executor": "Run",
+    "Application.LongestNameByDepartment.executor": "Run",
+    "Application.LongestString.executor": "Run",
+    "Application.LongestSubstring.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Merge.executor": "Run",
+    "Application.MergeIntervals.executor": "Run",
+    "Application.MergeSort.executor": "Run",
+    "Application.MergeSorting.executor": "Run",
+    "Application.MultiLevelGrouping.executor": "Run",
+    "Application.MultiThreadingComp.executor": "Run",
+    "Application.NthConsecutive.executor": "Run",
+    "Application.NthFibonacciNumber.executor": "Run",
+    "Application.OptionalExample.executor": "Run",
+    "Application.ParkingLot.executor": "Run",
+    "Application.PhaserEval.executor": "Run",
+    "Application.PrintNumbers.executor": "Run",
+    "Application.ProjectEval.executor": "Run",
+    "Application.PutAllZerosAtEnd.executor": "Run",
+    "Application.RandomGeneratorEval.executor": "Run",
+    "Application.RandomNumberGenerator (1).executor": "Run",
+    "Application.RandomNumberGenerator (2).executor": "Run",
+    "Application.RandomNumberGenerator (3).executor": "Run",
+    "Application.RandomNumberGenerator (4).executor": "Run",
+    "Application.RandomNumberGenerator (5).executor": "Run",
+    "Application.RandomNumberGenerator.executor": "Run",
+    "Application.RecordExample.executor": "Run",
+    "Application.ReflectionBreak.executor": "Run",
+    "Application.ReflectionEval.executor": "Run",
+    "Application.RevVowels.executor": "Run",
+    "Application.ReverseArraySubset.executor": "Run",
+    "Application.ReverseVowels.executor": "Run",
+    "Application.SecondLargest.executor": "Run",
+    "Application.SecondMostFrequent.executor": "Run",
+    "Application.SerializableBreak.executor": "Run",
+    "Application.SerializeClass.executor": "Run",
+    "Application.ShapeEval.executor": "Run",
+    "Application.SmallestAndLargest.executor": "Run",
+    "Application.SortedArray.executor": "Run",
+    "Application.StringEval.executor": "Run",
+    "Application.Student.executor": "Run",
+    "Application.StudentTest.executor": "Run",
+    "Application.SwitchExpressionExample.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.TransactionProcessor (1).executor": "Run",
+    "Application.TransactionProcessor (2).executor": "Run",
+    "Application.TransactionProcessor.executor": "Run",
+    "Application.TwoDimensional.executor": "Run",
+    "Application.TwoSum.executor": "Run",
+    "Application.UserExample.executor": "Run",
+    "Application.ValidParenthesis.executor": "Run",
+    "Application.org.example.practise.FindPairs.executor": "Run",
+    "Application.org.example.xperi.Interview.executor": "Debug",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.basictest15 [install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.preview.features.used": "true",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example.gpt_challenge" />
@@ -167,13 +169,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongestNameByDepartment">
-    <configuration name="CyclicBarrierEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.threads.CyclicBarrierEval" />
+  <component name="RunManager" selected="Application.EmployeePerformance">
+    <configuration name="EmployeeFilters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.streams.EmployeeFilters" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.chatgpt.threads.*" />
+          <option name="PATTERN" value="org.example.chatgpt.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,12 +183,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeFilters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.streams.EmployeeFilters" />
+    <configuration name="EmployeePerformance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.java8.EmployeePerformance" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.chatgpt.streams.*" />
+          <option name="PATTERN" value="org.example.chatgpt.java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -235,11 +237,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EmployeePerformance" />
         <item itemvalue="Application.LongestNameByDepartment" />
         <item itemvalue="Application.MultiLevelGrouping" />
         <item itemvalue="Application.Grouping" />
         <item itemvalue="Application.EmployeeFilters" />
-        <item itemvalue="Application.CyclicBarrierEval" />
       </list>
     </recent_temporary>
   </component>
