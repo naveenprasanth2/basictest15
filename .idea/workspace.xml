@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/generics/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/generics/PairEval.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/autocloseable/CloseEval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/autocloseable/CloseEval.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +113,7 @@
     "Application.NthConsecutive.executor": "Run",
     "Application.NthFibonacciNumber.executor": "Run",
     "Application.OptionalExample.executor": "Run",
+    "Application.PairEval.executor": "Run",
     "Application.ParkingLot.executor": "Run",
     "Application.PhaserEval.executor": "Run",
     "Application.PrintNumbers.executor": "Run",
@@ -169,7 +171,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CloseEval">
+  <component name="RunManager" selected="Application.PairEval">
     <configuration name="CloseEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.autocloseable.CloseEval" />
       <module name="basictest15" />
@@ -189,19 +191,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.chatgpt.java8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Grouping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.streams.Grouping" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.chatgpt.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -235,13 +224,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PairEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.generics.PairEval" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.chatgpt.generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PairEval" />
         <item itemvalue="Application.CloseEval" />
         <item itemvalue="Application.EmployeePerformance" />
         <item itemvalue="Application.LongestNameByDepartment" />
         <item itemvalue="Application.MultiLevelGrouping" />
-        <item itemvalue="Application.Grouping" />
       </list>
     </recent_temporary>
   </component>
