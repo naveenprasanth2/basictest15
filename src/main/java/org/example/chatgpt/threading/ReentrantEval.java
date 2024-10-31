@@ -1,8 +1,7 @@
 package org.example.chatgpt.threading;
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.RequiredArgsConstructor;
+import lombok.extern.log4j.Log4j2;
 
 import java.util.List;
 import java.util.concurrent.ExecutorService;
@@ -10,6 +9,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;
 
+@Log4j2
 public class ReentrantEval {
     public static void main(String[] args) throws InterruptedException {
         ReentrantLock reentrantLock = new ReentrantLock();
@@ -22,7 +22,13 @@ public class ReentrantEval {
         ExecutorService executorService = Executors.newFixedThreadPool(4);
         threads.forEach(executorService::execute);
         executorService.shutdown();
-        System.out.println(bankAccount.getBalance());
+        boolean terminated = executorService.awaitTermination(1, TimeUnit.MINUTES); // Wait for all tasks to complete
+
+        if (!terminated) {
+           log.info("Some tasks did not finish within the timeout.");
+        }
+
+        log.info("Final Balance: " + bankAccount.getBalance());
     }
 }
 
