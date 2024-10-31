@@ -18,14 +18,10 @@ public class ReentrantEval {
         Thread t2 = new Thread(() -> bankAccount.withdraw(300));
         Thread t3 = new Thread(() -> bankAccount.deposit(700));
         Thread t4 = new Thread(() -> bankAccount.withdraw(200));
-        t1.start();
-        t2.start();
-        t3.start();
-        t4.start();
-        t1.join();
-        t2.join();
-        t3.join();
-        t4.join();
+        List<Thread> threads = List.of(t1, t2, t3, t4);
+        ExecutorService executorService = Executors.newFixedThreadPool(4);
+        threads.forEach(executorService::execute);
+        executorService.shutdown();
         System.out.println(bankAccount.getBalance());
     }
 }
