@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/generic/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/threads/DeadLock2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/threading/ReentrantEval.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,6 +127,7 @@
     "Application.RandomNumberGenerator (5).executor": "Run",
     "Application.RandomNumberGenerator.executor": "Run",
     "Application.RecordExample.executor": "Run",
+    "Application.ReentrantEval.executor": "Run",
     "Application.ReflectionBreak.executor": "Run",
     "Application.ReflectionEval.executor": "Run",
     "Application.RevVowels.executor": "Run",
@@ -172,20 +172,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DeadLock2">
-    <configuration name="CloseEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.autocloseable.CloseEval" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.chatgpt.autocloseable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ReentrantEval">
     <configuration name="DeadLock2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.threads.DeadLock2" />
       <module name="basictest15" />
@@ -238,12 +225,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReentrantEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.threading.ReentrantEval" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.chatgpt.threading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReentrantEval" />
         <item itemvalue="Application.DeadLock2" />
-        <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.PairEval" />
-        <item itemvalue="Application.CloseEval" />
+        <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.EmployeePerformance" />
       </list>
     </recent_temporary>
