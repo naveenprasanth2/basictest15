@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/locks/ReentrantReadWriteLockEval.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/threading/ReentrantEval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/threading/ReentrantEval.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +44,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.AccountTest.executor": "Run",
     "Application.Anagram.executor": "Run",
     "Application.ArrayChallenge.executor": "Run",
@@ -129,6 +129,10 @@
     "Application.RandomNumberGenerator.executor": "Run",
     "Application.RecordExample.executor": "Run",
     "Application.ReentrantEval.executor": "Run",
+    "Application.ReentrantReadWriteLockEval (1).executor": "Run",
+    "Application.ReentrantReadWriteLockEval (2).executor": "Run",
+    "Application.ReentrantReadWriteLockEval (3).executor": "Run",
+    "Application.ReentrantReadWriteLockEval.executor": "Run",
     "Application.ReflectionBreak.executor": "Run",
     "Application.ReflectionEval.executor": "Run",
     "Application.RevVowels.executor": "Run",
@@ -170,62 +174,11 @@
       <recent name="org.example.interview1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReentrantEval">
-    <configuration name="DeadLock2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.threads.DeadLock2" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.chatgpt.threads.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EmployeePerformance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.java8.EmployeePerformance" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.chatgpt.java8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.sortings.MergeSort" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.chatgpt.sortings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PairEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.generics.PairEval" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.chatgpt.generics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ReentrantReadWriteLockEval">
     <configuration name="ReentrantEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.threading.ReentrantEval" />
       <module name="basictest15" />
@@ -239,13 +192,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReentrantReadWriteLockEval (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.locks.ReentrantReadWriteLockEval" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.locks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReentrantReadWriteLockEval (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.locks.ReentrantReadWriteLockEval" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.locks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReentrantReadWriteLockEval (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.locks.ReentrantReadWriteLockEval" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.locks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReentrantReadWriteLockEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.locks.ReentrantReadWriteLockEval" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.locks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReentrantReadWriteLockEval" />
+        <item itemvalue="Application.ReentrantReadWriteLockEval (3)" />
+        <item itemvalue="Application.ReentrantReadWriteLockEval (2)" />
+        <item itemvalue="Application.ReentrantReadWriteLockEval (1)" />
         <item itemvalue="Application.ReentrantEval" />
-        <item itemvalue="Application.DeadLock2" />
-        <item itemvalue="Application.PairEval" />
-        <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.EmployeePerformance" />
       </list>
     </recent_temporary>
   </component>
@@ -259,6 +264,9 @@
       <updated>1718432797025</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
