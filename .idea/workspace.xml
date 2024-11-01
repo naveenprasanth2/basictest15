@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/locks/ReentrantReadWriteLockEval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/locks/CountDownLatchEval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/locks/SemaphoreEval.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +60,7 @@
     "Application.CloseEval.executor": "Run",
     "Application.Common.executor": "Run",
     "Application.Count.executor": "Run",
+    "Application.CountDownLatchEval.executor": "Run",
     "Application.CountDownLatchExample.executor": "Run",
     "Application.Countdown.executor": "Run",
     "Application.CurrencyEval.executor": "Run",
@@ -140,6 +142,9 @@
     "Application.ReverseVowels.executor": "Run",
     "Application.SecondLargest.executor": "Run",
     "Application.SecondMostFrequent.executor": "Run",
+    "Application.SemaphoreEval (1).executor": "Run",
+    "Application.SemaphoreEval (2).executor": "Run",
+    "Application.SemaphoreEval.executor": "Run",
     "Application.SerializableBreak.executor": "Run",
     "Application.SerializeClass.executor": "Run",
     "Application.ShapeEval.executor": "Run",
@@ -178,48 +183,9 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReentrantReadWriteLockEval">
-    <configuration name="ReentrantEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.threading.ReentrantEval" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.chatgpt.threading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReentrantReadWriteLockEval (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.locks.ReentrantReadWriteLockEval" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.locks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReentrantReadWriteLockEval (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.locks.ReentrantReadWriteLockEval" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.locks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReentrantReadWriteLockEval (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.locks.ReentrantReadWriteLockEval" />
+  <component name="RunManager" selected="Application.CountDownLatchEval">
+    <configuration name="CountDownLatchEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.locks.CountDownLatchEval" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
@@ -244,13 +210,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SemaphoreEval (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.locks.SemaphoreEval" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.locks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SemaphoreEval (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.locks.SemaphoreEval" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.locks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SemaphoreEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.locks.SemaphoreEval" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.locks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountDownLatchEval" />
+        <item itemvalue="Application.SemaphoreEval (2)" />
+        <item itemvalue="Application.SemaphoreEval (1)" />
+        <item itemvalue="Application.SemaphoreEval" />
         <item itemvalue="Application.ReentrantReadWriteLockEval" />
-        <item itemvalue="Application.ReentrantReadWriteLockEval (3)" />
-        <item itemvalue="Application.ReentrantReadWriteLockEval (2)" />
-        <item itemvalue="Application.ReentrantReadWriteLockEval (1)" />
-        <item itemvalue="Application.ReentrantEval" />
       </list>
     </recent_temporary>
   </component>
