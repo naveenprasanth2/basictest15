@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/locks/CountDownLatchEval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/locks/SemaphoreEval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/locks/CyclicBarrierEval.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -183,7 +182,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountDownLatchEval">
+  <component name="RunManager" selected="Application.CyclicBarrierEval">
     <configuration name="CountDownLatchEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.locks.CountDownLatchEval" />
       <module name="basictest15" />
@@ -197,8 +196,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReentrantReadWriteLockEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.locks.ReentrantReadWriteLockEval" />
+    <configuration name="CyclicBarrierEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.locks.CyclicBarrierEval" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
@@ -251,11 +250,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CyclicBarrierEval" />
         <item itemvalue="Application.CountDownLatchEval" />
         <item itemvalue="Application.SemaphoreEval (2)" />
         <item itemvalue="Application.SemaphoreEval (1)" />
         <item itemvalue="Application.SemaphoreEval" />
-        <item itemvalue="Application.ReentrantReadWriteLockEval" />
       </list>
     </recent_temporary>
   </component>
