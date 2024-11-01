@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/locks/CyclicBarrierEval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/sorting/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview/linkedin/JumpGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,6 +98,7 @@
     "Application.Interview.executor": "Run",
     "Application.IpAddressMatching.executor": "Run",
     "Application.JavaCollections.executor": "Run",
+    "Application.JumpGame.executor": "Run",
     "Application.LargestAndSmallest.executor": "Run",
     "Application.LatchEval (1).executor": "Run",
     "Application.LatchEval.executor": "Run",
@@ -161,6 +163,7 @@
     "Application.TwoSum.executor": "Run",
     "Application.UserExample.executor": "Run",
     "Application.ValidParenthesis.executor": "Run",
+    "Application.org.example.chatgpt.sortings.MergeSort.executor": "Debug",
     "Application.org.example.practise.FindPairs.executor": "Run",
     "Application.org.example.xperi.Interview.executor": "Debug",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
@@ -182,7 +185,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CyclicBarrierEval">
+  <component name="RunManager" selected="Application.JumpGame">
     <configuration name="CountDownLatchEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.locks.CountDownLatchEval" />
       <module name="basictest15" />
@@ -209,12 +212,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SemaphoreEval (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.locks.SemaphoreEval" />
+    <configuration name="JumpGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.interview.linkedin.JumpGame" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.locks.*" />
+          <option name="PATTERN" value="org.example.interview.linkedin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -222,12 +225,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SemaphoreEval (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.locks.SemaphoreEval" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.sorting.MergeSort" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.locks.*" />
+          <option name="PATTERN" value="org.example.chatgpt.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -235,12 +238,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SemaphoreEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.locks.SemaphoreEval" />
+    <configuration name="org.example.chatgpt.sortings.MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.sortings.MergeSort" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.locks.*" />
+          <option name="PATTERN" value="org.example.chatgpt.sortings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -250,11 +253,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JumpGame" />
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.org.example.chatgpt.sortings.MergeSort" />
         <item itemvalue="Application.CyclicBarrierEval" />
         <item itemvalue="Application.CountDownLatchEval" />
-        <item itemvalue="Application.SemaphoreEval (2)" />
-        <item itemvalue="Application.SemaphoreEval (1)" />
-        <item itemvalue="Application.SemaphoreEval" />
       </list>
     </recent_temporary>
   </component>
