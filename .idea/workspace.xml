@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/ConsumerEval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/SupplierEval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/challenge/BestTimeToBuyAndSellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/challenge/LongestSubstringWithoutRepeating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/challenge/TwoSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +52,7 @@
     "Application.ArrayChallenge.executor": "Run",
     "Application.AverageSalary.executor": "Run",
     "Application.BTest.executor": "Run",
+    "Application.BestTimeToBuyAndSellStock.executor": "Run",
     "Application.BinaryRecursion.executor": "Run",
     "Application.BinarySearch.executor": "Run",
     "Application.BubbleSort.executor": "Run",
@@ -109,6 +111,7 @@
     "Application.LongestNameByDepartment.executor": "Run",
     "Application.LongestString.executor": "Run",
     "Application.LongestSubstring.executor": "Run",
+    "Application.LongestSubstringWithoutRepeating.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Merge.executor": "Run",
     "Application.MergeIntervals.executor": "Run",
@@ -157,6 +160,7 @@
     "Application.StringEval.executor": "Run",
     "Application.Student.executor": "Run",
     "Application.StudentTest.executor": "Run",
+    "Application.SupplierEval.executor": "Run",
     "Application.SwitchExpressionExample.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.TransactionProcessor (1).executor": "Run",
@@ -188,7 +192,20 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SupplierEval">
+  <component name="RunManager" selected="Application.LongestSubstringWithoutRepeating">
+    <configuration name="BestTimeToBuyAndSellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.challenge.BestTimeToBuyAndSellStock" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.gpt_challenge.challenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConsumerEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.streams.ConsumerEval" />
       <module name="basictest15" />
@@ -202,38 +219,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.streams.FunctionEval" />
+    <configuration name="LongestSubstringWithoutRepeating" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.challenge.LongestSubstringWithoutRepeating" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JumpGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.interview.linkedin.JumpGame" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.interview.linkedin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PredicateEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.streams.PredicateEval" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.streams.*" />
+          <option name="PATTERN" value="org.example.gpt_challenge.challenge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -254,13 +245,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.challenge.TwoSum" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.gpt_challenge.challenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestSubstringWithoutRepeating" />
+        <item itemvalue="Application.TwoSum" />
+        <item itemvalue="Application.BestTimeToBuyAndSellStock" />
         <item itemvalue="Application.SupplierEval" />
         <item itemvalue="Application.ConsumerEval" />
-        <item itemvalue="Application.FunctionEval" />
-        <item itemvalue="Application.PredicateEval" />
-        <item itemvalue="Application.JumpGame" />
       </list>
     </recent_temporary>
   </component>
