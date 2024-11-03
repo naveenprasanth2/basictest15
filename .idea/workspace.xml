@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/challenge/MaxSubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/challenge/SquareOfArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/challenge/UniqueTriplets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/challenge/WeekDay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/challenge/WeekDayEval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/challenge1/BuyAndSell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/challenge1/SquareOfArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +55,7 @@
     "Application.BinaryRecursion.executor": "Run",
     "Application.BinarySearch.executor": "Run",
     "Application.BubbleSort.executor": "Run",
+    "Application.BuyAndSell.executor": "Run",
     "Application.CatEval.executor": "Run",
     "Application.Child.executor": "Run",
     "Application.CloneableBreak.executor": "Run",
@@ -176,6 +174,7 @@
     "Application.ValidParenthesis.executor": "Run",
     "Application.WeekDayEval.executor": "Run",
     "Application.org.example.chatgpt.sortings.MergeSort.executor": "Debug",
+    "Application.org.example.gpt_challenge.challenge1.SquareOfArray.executor": "Run",
     "Application.org.example.practise.FindPairs.executor": "Run",
     "Application.org.example.xperi.Interview.executor": "Debug",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
@@ -200,13 +199,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SquareOfArray">
-    <configuration name="LongestSubstringWithoutRepeating" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.challenge.LongestSubstringWithoutRepeating" />
+  <component name="RunManager" selected="Application.BuyAndSell">
+    <configuration name="BuyAndSell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.challenge1.BuyAndSell" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.gpt_challenge.challenge.*" />
+          <option name="PATTERN" value="org.example.gpt_challenge.challenge1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -216,19 +215,6 @@
     </configuration>
     <configuration name="SquareOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.challenge.SquareOfArray" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.gpt_challenge.challenge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.challenge.TwoSum" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
@@ -266,13 +252,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.example.gpt_challenge.challenge1.SquareOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.challenge1.SquareOfArray" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.gpt_challenge.challenge1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BuyAndSell" />
+        <item itemvalue="Application.org.example.gpt_challenge.challenge1.SquareOfArray" />
         <item itemvalue="Application.SquareOfArray" />
         <item itemvalue="Application.WeekDayEval" />
         <item itemvalue="Application.UniqueTriplets" />
-        <item itemvalue="Application.LongestSubstringWithoutRepeating" />
-        <item itemvalue="Application.TwoSum" />
       </list>
     </recent_temporary>
   </component>
