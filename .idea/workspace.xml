@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/two_pointer/FindDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/two_pointer/SquareOfArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/streams/MapToIntStreams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,6 +114,7 @@
     "Application.LongestSubstring.executor": "Run",
     "Application.LongestSubstringWithoutRepeating.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MapToIntStreams.executor": "Run",
     "Application.Merge.executor": "Run",
     "Application.MergeIntervals.executor": "Run",
     "Application.MergeSort.executor": "Run",
@@ -202,20 +202,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SquareOfArray">
-    <configuration name="BuyAndSell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.challenge1.BuyAndSell" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.gpt_challenge.challenge1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MapToIntStreams">
     <configuration name="FindDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.two_pointer.FindDuplicates" />
       <module name="basictest15" />
@@ -235,6 +222,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.gpt_challenge.two_pointer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapToIntStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.streams.MapToIntStreams" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.gpt_challenge.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -270,11 +270,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapToIntStreams" />
         <item itemvalue="Application.SquareOfArray" />
         <item itemvalue="Application.FindDuplicates" />
         <item itemvalue="Application.RemoveDuplicates" />
         <item itemvalue="Application.FindPalindrome" />
-        <item itemvalue="Application.BuyAndSell" />
       </list>
     </recent_temporary>
   </component>
