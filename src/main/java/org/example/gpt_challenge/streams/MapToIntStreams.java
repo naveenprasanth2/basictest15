@@ -1,6 +1,8 @@
 package org.example.gpt_challenge.streams;
 
 import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 public class MapToIntStreams {
@@ -9,6 +11,9 @@ public class MapToIntStreams {
         int sum = test.stream().mapToInt(Integer::intValue).sum();
         double average = test.stream().mapToInt(Integer::intValue).average().orElseThrow();
         IntStream stream = test.stream().mapToInt(Integer::intValue);
+        Map<Boolean, List<Integer>> separatedList = test.stream()
+                .collect(Collectors.partitioningBy(x -> x > 10, Collectors.toList()));
+        System.out.println(separatedList);
         System.out.println(sum);
         System.out.println(average);
         stream.forEach(System.out::println);

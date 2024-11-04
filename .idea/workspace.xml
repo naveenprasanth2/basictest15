@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/streams/MapToIntStreams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/challenge1/FindDuplicateCharacter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/streams/MapToIntStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/streams/MapToIntStreams.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +85,7 @@
     "Application.EnumEval.executor": "Run",
     "Application.EvenOrOddUsingThread.executor": "Run",
     "Application.FindDuplicate.executor": "Run",
+    "Application.FindDuplicateCharacter.executor": "Run",
     "Application.FindDuplicates.executor": "Run",
     "Application.FindPairs.executor": "Run",
     "Application.FindPalindrome.executor": "Run",
@@ -202,13 +204,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MapToIntStreams">
-    <configuration name="FindDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.two_pointer.FindDuplicates" />
+  <component name="RunManager" selected="Application.FindDuplicateCharacter">
+    <configuration name="FindDuplicateCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.challenge1.FindDuplicateCharacter" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.gpt_challenge.two_pointer.*" />
+          <option name="PATTERN" value="org.example.gpt_challenge.challenge1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -216,8 +218,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.two_pointer.FindPalindrome" />
+    <configuration name="FindDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.two_pointer.FindDuplicates" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
@@ -270,11 +272,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindDuplicateCharacter" />
         <item itemvalue="Application.MapToIntStreams" />
         <item itemvalue="Application.SquareOfArray" />
         <item itemvalue="Application.FindDuplicates" />
         <item itemvalue="Application.RemoveDuplicates" />
-        <item itemvalue="Application.FindPalindrome" />
       </list>
     </recent_temporary>
   </component>
