@@ -1,8 +1,9 @@
 package org.example.gpt_challenge.challenge1;
 
+import java.io.Serializable;
 import java.util.Arrays;
 
-public class SquareOfArray {
+public class SquareOfArray implements Serializable {
     public static void main(String[] args) {
         int[] nums = {-11, -1, 0, 1, 2, 4};
         int low = 0;
