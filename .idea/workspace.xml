@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/challenge1/FindDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ser.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/coding_challenges/MyExecutorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/coding_challenges/ReplaceString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/coding_challenges/SimpleExecutorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/challenge1/SerializableEval.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/challenge1/SquareOfArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gpt_challenge/challenge1/SquareOfArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +33,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/sapmachine-22.0.1/Contents/Home/lib/src.zip!/java.base/java/util/function/Function.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/sapmachine-22.0.2/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/BlockingQueue.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/sapmachine-22.0.2/Contents/Home/lib/src.zip!/java.base/java/util/stream/Collectors.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/sapmachine-22.0.2/Contents/Home/lib/src.zip!/java.base/java/util/stream/Stream.java" root0="SKIP_INSPECTION" />
   </component>
@@ -122,6 +128,11 @@
     "Application.MergeSorting.executor": "Run",
     "Application.MultiLevelGrouping.executor": "Run",
     "Application.MultiThreadingComp.executor": "Run",
+    "Application.MyExecutorService (1).executor": "Run",
+    "Application.MyExecutorService (2).executor": "Run",
+    "Application.MyExecutorService (3).executor": "Run",
+    "Application.MyExecutorService (4).executor": "Run",
+    "Application.MyExecutorService.executor": "Run",
     "Application.NthConsecutive.executor": "Run",
     "Application.NthFibonacciNumber.executor": "Run",
     "Application.OptionalExample.executor": "Run",
@@ -148,6 +159,7 @@
     "Application.ReflectionBreak.executor": "Run",
     "Application.ReflectionEval.executor": "Run",
     "Application.RemoveDuplicates.executor": "Run",
+    "Application.ReplaceString.executor": "Run",
     "Application.RevVowels.executor": "Run",
     "Application.ReverseArraySubset.executor": "Run",
     "Application.ReverseVowels.executor": "Run",
@@ -157,8 +169,10 @@
     "Application.SemaphoreEval (2).executor": "Run",
     "Application.SemaphoreEval.executor": "Run",
     "Application.SerializableBreak.executor": "Run",
+    "Application.SerializableEval.executor": "Run",
     "Application.SerializeClass.executor": "Run",
     "Application.ShapeEval.executor": "Run",
+    "Application.SimpleExecutorService.executor": "Run",
     "Application.SmallestAndLargest.executor": "Run",
     "Application.SortedArray.executor": "Run",
     "Application.SquareOfArray.executor": "Run",
@@ -203,13 +217,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindDuplicate">
-    <configuration name="FindDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.challenge1.FindDuplicate" />
+  <component name="RunManager" selected="Application.MyExecutorService">
+    <configuration name="MyExecutorService (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.coding_challenges.MyExecutorService" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.gpt_challenge.challenge1.*" />
+          <option name="PATTERN" value="org.example.chatgpt.coding_challenges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,12 +231,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindDuplicateCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.challenge1.FindDuplicateCharacter" />
+    <configuration name="MyExecutorService (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.coding_challenges.MyExecutorService" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.gpt_challenge.challenge1.*" />
+          <option name="PATTERN" value="org.example.chatgpt.coding_challenges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -230,38 +244,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.two_pointer.FindDuplicates" />
+    <configuration name="MyExecutorService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.coding_challenges.MyExecutorService" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.gpt_challenge.two_pointer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MapToIntStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.streams.MapToIntStreams" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.gpt_challenge.streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SquareOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.gpt_challenge.two_pointer.SquareOfArray" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.gpt_challenge.two_pointer.*" />
+          <option name="PATTERN" value="org.example.chatgpt.coding_challenges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -271,11 +259,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FindDuplicate" />
-        <item itemvalue="Application.FindDuplicateCharacter" />
-        <item itemvalue="Application.MapToIntStreams" />
-        <item itemvalue="Application.SquareOfArray" />
-        <item itemvalue="Application.FindDuplicates" />
+        <item itemvalue="Application.MyExecutorService" />
+        <item itemvalue="Application.MyExecutorService (2)" />
+        <item itemvalue="Application.MyExecutorService (1)" />
       </list>
     </recent_temporary>
   </component>
