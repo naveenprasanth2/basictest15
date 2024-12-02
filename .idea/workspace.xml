@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/codedecode/challenges/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/codedecode/challenges/MergeSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/codedecode/challenges/ReverseStringRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/codedecode/challenges/SecondSmallest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/codedecode/challenges/SecondSmallestTry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/codedecode/challenges/Reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/codedecode/challenges/Reverse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,6 +170,8 @@
     "Application.ReverseVowels.executor": "Run",
     "Application.SecondLargest.executor": "Run",
     "Application.SecondMostFrequent.executor": "Run",
+    "Application.SecondSmallest.executor": "Run",
+    "Application.SecondSmallestTry.executor": "Run",
     "Application.SemaphoreEval (1).executor": "Run",
     "Application.SemaphoreEval (2).executor": "Run",
     "Application.SemaphoreEval.executor": "Run",
@@ -224,7 +224,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeSortedArray">
+  <component name="RunManager" selected="Application.SecondSmallestTry">
     <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.codedecode.challenges.MergeSort" />
       <module name="basictest15" />
@@ -251,32 +251,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.codedecode.challenges.Reverse" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.codedecode.challenges.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.codedecode.challenges.ReverseString" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.codedecode.challenges.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReverseStringRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.codedecode.challenges.ReverseStringRecursion" />
       <module name="basictest15" />
@@ -290,13 +264,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SecondSmallest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.codedecode.challenges.SecondSmallest" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.codedecode.challenges.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecondSmallestTry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.codedecode.challenges.SecondSmallestTry" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.codedecode.challenges.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SecondSmallestTry" />
+        <item itemvalue="Application.SecondSmallest" />
         <item itemvalue="Application.MergeSortedArray" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.ReverseStringRecursion" />
-        <item itemvalue="Application.Reverse" />
-        <item itemvalue="Application.ReverseString" />
       </list>
     </recent_temporary>
   </component>
