@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/codedecode/challenges/SecondSmallest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/codedecode/challenges/SecondSmallestTry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/codedecode/challenges/MinimumArrangement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,6 +126,7 @@
     "Application.MergeSort.executor": "Run",
     "Application.MergeSortedArray.executor": "Run",
     "Application.MergeSorting.executor": "Run",
+    "Application.MinimumArrangement.executor": "Run",
     "Application.MultiLevelGrouping.executor": "Run",
     "Application.MultiThreadingComp.executor": "Run",
     "Application.MyExecutorService (1).executor": "Run",
@@ -224,7 +224,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SecondSmallestTry">
+  <component name="RunManager" selected="Application.MinimumArrangement">
     <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.codedecode.challenges.MergeSort" />
       <module name="basictest15" />
@@ -251,8 +251,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseStringRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.codedecode.challenges.ReverseStringRecursion" />
+    <configuration name="MinimumArrangement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.codedecode.challenges.MinimumArrangement" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
@@ -292,11 +292,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SecondSmallestTry" />
+        <item itemvalue="Application.MinimumArrangement" />
         <item itemvalue="Application.SecondSmallest" />
+        <item itemvalue="Application.SecondSmallestTry" />
         <item itemvalue="Application.MergeSortedArray" />
         <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.ReverseStringRecursion" />
       </list>
     </recent_temporary>
   </component>
