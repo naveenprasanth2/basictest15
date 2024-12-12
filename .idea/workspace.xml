@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/codedecode/challenge/FinalSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/codedecode/challenge/NormalSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/codedecode/challenge/SingletonBreakClone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/codedecode/challenge/SingletonBreakReflection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/codedecode/challenge/SingletonBreakSeri.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/codedecode/challenge/SingletonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/codedecode/annotations/MethodAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/codedecode/annotations/MethodEval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/codedecode/annotations/TestClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -144,6 +140,7 @@
     "Application.MergeSort.executor": "Run",
     "Application.MergeSortedArray.executor": "Run",
     "Application.MergeSorting.executor": "Run",
+    "Application.MethodEval.executor": "Run",
     "Application.MinimumArrangement.executor": "Run",
     "Application.MultiLevelGrouping.executor": "Run",
     "Application.MultiThreadingComp.executor": "Run",
@@ -255,13 +252,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SingletonBreakSeri">
-    <configuration name="PhaserExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.threads.PhaserExample" />
+  <component name="RunManager" selected="Application.MethodEval">
+    <configuration name="MethodEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.codedecode.annotations.MethodEval" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.threads.*" />
+          <option name="PATTERN" value="org.example.codedecode.annotations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -323,11 +320,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MethodEval" />
         <item itemvalue="Application.SingletonBreakSeri" />
         <item itemvalue="Application.SingletonBreakReflection" />
         <item itemvalue="Application.SingletonBreakClone" />
         <item itemvalue="Application.SingletonTest" />
-        <item itemvalue="Application.PhaserExample" />
       </list>
     </recent_temporary>
   </component>
