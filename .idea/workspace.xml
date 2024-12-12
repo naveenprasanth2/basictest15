@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/codedecode/annotations/MethodAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/codedecode/annotations/MethodEval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/codedecode/annotations/TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/codedecode/ds1/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -252,7 +250,20 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MethodEval">
+  <component name="RunManager" selected="Application.MergeSort">
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.codedecode.ds1.MergeSort" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.codedecode.ds1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MethodEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.codedecode.annotations.MethodEval" />
       <module name="basictest15" />
@@ -305,26 +316,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.codedecode.challenge.SingletonTest" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.codedecode.challenge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.MethodEval" />
         <item itemvalue="Application.SingletonBreakSeri" />
         <item itemvalue="Application.SingletonBreakReflection" />
         <item itemvalue="Application.SingletonBreakClone" />
-        <item itemvalue="Application.SingletonTest" />
       </list>
     </recent_temporary>
   </component>
