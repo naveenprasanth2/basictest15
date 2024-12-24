@@ -1,8 +1,5 @@
 package org.example.interview.linkedin;
 
-import java.util.HashSet;
-import java.util.Set;
-
 public class CommonCharacters {
     static String str1 = "KIRUTHIKA";
     static String str2 = "JAYANTHIKA";
@@ -14,8 +11,6 @@ public class CommonCharacters {
                 System.out.print(c);
             }
         }
-
-
     }
 
     private static boolean isFound(String str, char c) {

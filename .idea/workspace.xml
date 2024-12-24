@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/codedecode/ds1/Anagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/codedecode/ds1/FindRep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview/linkedin/CommonCharacters.java" afterDir="false" />
+    <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="added common characters in the code">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/streams1/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/streams1/EmployeeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/FindSubStringPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/ReverseLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/interview/linkedin/CommonCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/interview/linkedin/CommonCharacters.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +111,7 @@
     "Application.FindPairs.executor": "Run",
     "Application.FindPalindrome.executor": "Run",
     "Application.FindRep.executor": "Run",
+    "Application.FindSubStringPairs.executor": "Run",
     "Application.FindUncommon.executor": "Run",
     "Application.FindUncommonCharacter.executor": "Run",
     "Application.FirstAndLast.executor": "Run",
@@ -183,6 +186,7 @@
     "Application.RevVowels.executor": "Run",
     "Application.Reverse.executor": "Run",
     "Application.ReverseArraySubset.executor": "Run",
+    "Application.ReverseLinkedList.executor": "Run",
     "Application.ReverseString.executor": "Run",
     "Application.ReverseString1.executor": "Run",
     "Application.ReverseStringRecursion.executor": "Run",
@@ -254,7 +258,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CommonCharacters">
+  <component name="RunManager" selected="Application.ReverseLinkedList">
     <configuration name="CommonCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.interview.linkedin.CommonCharacters" />
       <module name="basictest15" />
@@ -268,12 +272,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindRep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.codedecode.ds1.FindRep" />
+    <configuration name="EmployeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.streams1.EmployeeTest" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.codedecode.ds1.*" />
+          <option name="PATTERN" value="org.example.chatgpt.streams1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -281,12 +285,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.codedecode.ds1.MergeSort" />
+    <configuration name="FindSubStringPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.oracle.FindSubStringPairs" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.codedecode.ds1.*" />
+          <option name="PATTERN" value="org.example.oracle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -294,12 +298,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.codedecode.annotations.MethodEval" />
+    <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.oracle.ReverseLinkedList" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.codedecode.annotations.*" />
+          <option name="PATTERN" value="org.example.oracle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -322,10 +326,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseLinkedList" />
+        <item itemvalue="Application.FindSubStringPairs" />
+        <item itemvalue="Application.EmployeeTest" />
         <item itemvalue="Application.CommonCharacters" />
-        <item itemvalue="Application.FindRep" />
-        <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.MethodEval" />
         <item itemvalue="Application.SingletonBreakSeri" />
       </list>
     </recent_temporary>
@@ -341,6 +345,15 @@
       <workItem from="1733624036301" duration="5000" />
       <workItem from="1734009667451" duration="1069000" />
     </task>
+    <task id="LOCAL-00001" summary="added common characters in the code">
+      <option name="closed" value="true" />
+      <created>1734535305118</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734535305118</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,6 +361,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="added common characters in the code" />
+    <option name="LAST_COMMIT_MESSAGE" value="added common characters in the code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
