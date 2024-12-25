@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="added common characters in the code">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/PrinterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/seal/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/seal/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/seal/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/seal/SealedTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Record" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -193,6 +196,7 @@
     "Application.ReverseString1.executor": "Run",
     "Application.ReverseStringRecursion.executor": "Run",
     "Application.ReverseVowels.executor": "Run",
+    "Application.SealedTest.executor": "Run",
     "Application.SecondLargest.executor": "Run",
     "Application.SecondMostFrequent.executor": "Run",
     "Application.SecondSmallest.executor": "Run",
@@ -252,6 +256,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.oracle.seal" />
       <recent name="org.example.gpt_challenge" />
       <recent name="org.example.interview1" />
     </key>
@@ -260,7 +265,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrinterTest">
+  <component name="RunManager" selected="Application.SealedTest">
     <configuration name="FunctionalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.oracle.FunctionalTest" />
       <module name="basictest15" />
@@ -313,12 +318,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RateLimiter1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.oracle.RateLimiter1" />
+    <configuration name="SealedTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.oracle.seal.SealedTest" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.oracle.*" />
+          <option name="PATTERN" value="org.example.oracle.seal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -328,11 +333,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SealedTest" />
         <item itemvalue="Application.PrinterTest" />
         <item itemvalue="Application.FunctionalTest" />
         <item itemvalue="Application.InnerExample" />
         <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.RateLimiter1" />
       </list>
     </recent_temporary>
   </component>
