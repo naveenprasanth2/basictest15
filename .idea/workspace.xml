@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="added common characters in the code">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/streams1/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/streams1/EmployeeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/FindSubStringPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/ReverseLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/RateLimiter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/interview/linkedin/CommonCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/interview/linkedin/CommonCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/oracle/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/ReverseLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,6 +170,7 @@
     "Application.RandomNumberGenerator (4).executor": "Run",
     "Application.RandomNumberGenerator (5).executor": "Run",
     "Application.RandomNumberGenerator.executor": "Run",
+    "Application.RateLimiter.executor": "Run",
     "Application.RecordExample.executor": "Run",
     "Application.ReentrantEval.executor": "Run",
     "Application.ReentrantReadWriteLockEval (1).executor": "Run",
@@ -258,7 +256,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseLinkedList">
+  <component name="RunManager" selected="Application.RateLimiter">
     <configuration name="CommonCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.interview.linkedin.CommonCharacters" />
       <module name="basictest15" />
@@ -298,6 +296,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RateLimiter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.oracle.RateLimiter" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.oracle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.oracle.ReverseLinkedList" />
       <module name="basictest15" />
@@ -311,26 +322,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonBreakSeri" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.codedecode.challenge.SingletonBreakSeri" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.codedecode.challenge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RateLimiter" />
         <item itemvalue="Application.ReverseLinkedList" />
         <item itemvalue="Application.FindSubStringPairs" />
         <item itemvalue="Application.EmployeeTest" />
         <item itemvalue="Application.CommonCharacters" />
-        <item itemvalue="Application.SingletonBreakSeri" />
       </list>
     </recent_temporary>
   </component>
