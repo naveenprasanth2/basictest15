@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="added common characters in the code">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/singleton/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/singleton/SingletonClone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/singleton/SingletonSer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/singleton/SingletonTestReflection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/annotations/AnnotationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/annotations/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/annotations/MethodAnnotation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ser.ser" beforeDir="false" afterPath="$PROJECT_DIR$/ser.ser" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +64,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.AccountTest.executor": "Run",
     "Application.Anagram.executor": "Run",
+    "Application.AnnotationTest.executor": "Run",
     "Application.ArrayChallenge.executor": "Run",
     "Application.AverageSalary.executor": "Run",
     "Application.BTest.executor": "Run",
@@ -269,13 +268,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SingletonClone">
-    <configuration name="GenericTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.oracle.generic.GenericTest" />
+  <component name="RunManager" selected="Application.AnnotationTest">
+    <configuration name="AnnotationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.oracle.annotations.AnnotationTest" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.oracle.generic.*" />
+          <option name="PATTERN" value="org.example.oracle.annotations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -283,12 +282,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SealedTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.oracle.seal.SealedTest" />
+    <configuration name="GenericTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.oracle.generic.GenericTest" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.oracle.seal.*" />
+          <option name="PATTERN" value="org.example.oracle.generic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -337,11 +336,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnnotationTest" />
         <item itemvalue="Application.SingletonClone" />
         <item itemvalue="Application.SingletonSer" />
         <item itemvalue="Application.SingletonTestReflection" />
         <item itemvalue="Application.GenericTest" />
-        <item itemvalue="Application.SealedTest" />
       </list>
     </recent_temporary>
   </component>
