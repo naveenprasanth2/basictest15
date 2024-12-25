@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="added common characters in the code">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/FunctionalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/PrinterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -162,6 +163,7 @@
     "Application.PhaserExample.executor": "Run",
     "Application.PredicateEval.executor": "Run",
     "Application.PrintNumbers.executor": "Run",
+    "Application.PrinterTest.executor": "Run",
     "Application.ProjectEval.executor": "Run",
     "Application.PutAllZerosAtEnd.executor": "Run",
     "Application.RandomGeneratorEval.executor": "Run",
@@ -258,7 +260,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FunctionalTest">
+  <component name="RunManager" selected="Application.PrinterTest">
     <configuration name="FunctionalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.oracle.FunctionalTest" />
       <module name="basictest15" />
@@ -298,8 +300,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RateLimiter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.oracle.RateLimiter" />
+    <configuration name="PrinterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.oracle.PrinterTest" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
@@ -326,11 +328,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrinterTest" />
         <item itemvalue="Application.FunctionalTest" />
         <item itemvalue="Application.InnerExample" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.RateLimiter1" />
-        <item itemvalue="Application.RateLimiter" />
       </list>
     </recent_temporary>
   </component>
