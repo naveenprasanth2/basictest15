@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="added common characters in the code">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/generic/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/generic/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/generic/GenericTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/generic/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/singleton/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/singleton/SingletonClone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/singleton/SingletonSer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/singleton/SingletonTestReflection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/oracle/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/generic/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ser.ser" beforeDir="false" afterPath="$PROJECT_DIR$/ser.ser" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +213,10 @@
     "Application.SingletonBreakClone.executor": "Run",
     "Application.SingletonBreakReflection.executor": "Run",
     "Application.SingletonBreakSeri.executor": "Run",
+    "Application.SingletonClone.executor": "Run",
+    "Application.SingletonSer.executor": "Run",
     "Application.SingletonTest.executor": "Run",
+    "Application.SingletonTestReflection.executor": "Run",
     "Application.SmallestAndLargest.executor": "Run",
     "Application.SortedArray.executor": "Run",
     "Application.SquareOfArray.executor": "Run",
@@ -266,48 +269,9 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenericTest">
-    <configuration name="FunctionalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.oracle.FunctionalTest" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.oracle.generic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SingletonClone">
     <configuration name="GenericTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.oracle.generic.GenericTest" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.oracle.generic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InnerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.oracle.InnerExample" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.oracle.generic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrinterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.oracle.PrinterTest" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
@@ -332,13 +296,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SingletonClone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.oracle.singleton.SingletonClone" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.oracle.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonSer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.oracle.singleton.SingletonSer" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.oracle.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonTestReflection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.oracle.singleton.SingletonTestReflection" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.oracle.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingletonClone" />
+        <item itemvalue="Application.SingletonSer" />
+        <item itemvalue="Application.SingletonTestReflection" />
         <item itemvalue="Application.GenericTest" />
         <item itemvalue="Application.SealedTest" />
-        <item itemvalue="Application.PrinterTest" />
-        <item itemvalue="Application.FunctionalTest" />
-        <item itemvalue="Application.InnerExample" />
       </list>
     </recent_temporary>
   </component>
