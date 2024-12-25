@@ -7,7 +7,7 @@ public class FindRepeatedCharacters {
         char[] chars = name.toCharArray();
         for (char c : chars) {
             if (bool[c]) {
-                System.out.println(c + " is a duplicate character");
+                System.out.println(STR."\{c} is a duplicate character");
             } else {
                 bool[c] = true;
             }
