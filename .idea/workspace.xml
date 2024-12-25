@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="added common characters in the code">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/InnerExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/oracle/RateLimiter1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/RateLimiter1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +121,7 @@
     "Application.Grouping.executor": "Run",
     "Application.HashEval.executor": "Run",
     "Application.ImmutableCollections.executor": "Run",
+    "Application.InnerExample.executor": "Run",
     "Application.InsertionSort.executor": "Run",
     "Application.Interview.executor": "Run",
     "Application.IpAddressMatching.executor": "Run",
@@ -256,13 +258,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RateLimiter1">
-    <configuration name="EmployeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.streams1.EmployeeTest" />
+  <component name="RunManager" selected="Application.InnerExample">
+    <configuration name="InnerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.oracle.InnerExample" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.chatgpt.streams1.*" />
+          <option name="PATTERN" value="org.example.oracle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -270,8 +272,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindSubStringPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.oracle.FindSubStringPairs" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.oracle.MergeSort" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
@@ -324,11 +326,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InnerExample" />
+        <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.RateLimiter1" />
         <item itemvalue="Application.RateLimiter" />
         <item itemvalue="Application.ReverseLinkedList" />
-        <item itemvalue="Application.FindSubStringPairs" />
-        <item itemvalue="Application.EmployeeTest" />
       </list>
     </recent_temporary>
   </component>
