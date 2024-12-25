@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="added common characters in the code">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/seal/AnimalInter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/generic/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/generic/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/generic/GenericTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/generic/Printer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/oracle/seal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/seal/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/oracle/seal/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/seal/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/oracle/seal/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/seal/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/oracle/seal/SealedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/seal/SealedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/oracle/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/generic/Animal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +121,7 @@
     "Application.Frequency.executor": "Run",
     "Application.FunctionEval.executor": "Run",
     "Application.FunctionalTest.executor": "Run",
+    "Application.GenericTest.executor": "Run",
     "Application.GenericVariable.executor": "Run",
     "Application.Grouping.executor": "Run",
     "Application.HashEval.executor": "Run",
@@ -265,13 +266,26 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SealedTest">
+  <component name="RunManager" selected="Application.GenericTest">
     <configuration name="FunctionalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.oracle.FunctionalTest" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.oracle.*" />
+          <option name="PATTERN" value="org.example.oracle.generic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenericTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.oracle.generic.GenericTest" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.oracle.generic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -284,20 +298,7 @@
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.oracle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.oracle.MergeSort" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.oracle.*" />
+          <option name="PATTERN" value="org.example.oracle.generic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -310,7 +311,7 @@
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.oracle.*" />
+          <option name="PATTERN" value="org.example.oracle.generic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -333,11 +334,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenericTest" />
         <item itemvalue="Application.SealedTest" />
         <item itemvalue="Application.PrinterTest" />
         <item itemvalue="Application.FunctionalTest" />
         <item itemvalue="Application.InnerExample" />
-        <item itemvalue="Application.MergeSort" />
       </list>
     </recent_temporary>
   </component>
