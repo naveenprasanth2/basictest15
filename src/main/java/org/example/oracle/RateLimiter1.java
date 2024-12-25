@@ -1,16 +1,17 @@
 package org.example.oracle;
 
 public class RateLimiter1 {
+
+    private final long timeInterval;
     private final int maxTokens;
-    private final long refillTime;
     private int currentTokens;
     private long lastRefill;
 
-    public RateLimiter1(int maxTokens, long refillTime) {
+    public RateLimiter1(int maxTokens, long timeInterval) {
         this.maxTokens = maxTokens;
-        this.refillTime = refillTime;
         this.currentTokens = maxTokens;
         this.lastRefill = System.currentTimeMillis();
+        this.timeInterval = timeInterval;
     }
 
     private synchronized boolean checkAllowed() {
@@ -24,14 +25,15 @@ public class RateLimiter1 {
 
     private void resetTokens() {
         long now = System.currentTimeMillis();
-        long difference = now - lastRefill;
+        long diff = now - lastRefill; //(1200 - 1000 -> 200)
 
-        int tokensToAdd = (int) (difference / refillTime);
+        int tokensToAdd = (int) (diff / timeInterval);
         if (tokensToAdd > 0) {
             currentTokens = Math.min(maxTokens, currentTokens + tokensToAdd);
             lastRefill = now;
         }
     }
+
 
     public static void main() throws InterruptedException {
         RateLimiter1 rateLimiter = new RateLimiter1(5, 500);

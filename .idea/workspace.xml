@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="added common characters in the code">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/RateLimiter1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/oracle/RateLimiter1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/RateLimiter1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,6 +170,7 @@
     "Application.RandomNumberGenerator (5).executor": "Run",
     "Application.RandomNumberGenerator.executor": "Run",
     "Application.RateLimiter.executor": "Run",
+    "Application.RateLimiter1.executor": "Run",
     "Application.RecordExample.executor": "Run",
     "Application.ReentrantEval.executor": "Run",
     "Application.ReentrantReadWriteLockEval (1).executor": "Run",
