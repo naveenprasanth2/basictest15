@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="added common characters in the code">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/annotations/AnnotationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/annotations/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/annotations/MethodAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/CheckReversible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/FindRepeatedCharacters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,6 +73,7 @@
     "Application.BubbleSort.executor": "Run",
     "Application.BuyAndSell.executor": "Run",
     "Application.CatEval.executor": "Run",
+    "Application.CheckReversible.executor": "Run",
     "Application.Child.executor": "Run",
     "Application.CloneableBreak.executor": "Run",
     "Application.CloseEval.executor": "Run",
@@ -110,6 +110,7 @@
     "Application.FindPairs.executor": "Run",
     "Application.FindPalindrome.executor": "Run",
     "Application.FindRep.executor": "Run",
+    "Application.FindRepeatedCharacters.executor": "Run",
     "Application.FindSubStringPairs.executor": "Run",
     "Application.FindUncommon.executor": "Run",
     "Application.FindUncommonCharacter.executor": "Run",
@@ -268,7 +269,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AnnotationTest">
+  <component name="RunManager" selected="Application.FindRepeatedCharacters">
     <configuration name="AnnotationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.oracle.annotations.AnnotationTest" />
       <module name="basictest15" />
@@ -282,12 +283,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.oracle.generic.GenericTest" />
+    <configuration name="CheckPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.oracle.CheckPalindrome" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.oracle.generic.*" />
+          <option name="PATTERN" value="org.example.oracle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindRepeatedCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.oracle.FindRepeatedCharacters" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.oracle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -321,26 +335,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonTestReflection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.oracle.singleton.SingletonTestReflection" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.oracle.singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindRepeatedCharacters" />
+        <item itemvalue="Application.CheckPalindrome" />
         <item itemvalue="Application.AnnotationTest" />
         <item itemvalue="Application.SingletonClone" />
         <item itemvalue="Application.SingletonSer" />
-        <item itemvalue="Application.SingletonTestReflection" />
-        <item itemvalue="Application.GenericTest" />
       </list>
     </recent_temporary>
   </component>
