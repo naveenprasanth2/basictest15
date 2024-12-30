@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="added common characters in the code">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/practise/FindDuplicate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/oracle/functional/FunctionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/functional/FunctionalTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +44,9 @@
     <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/sapmachine-22.0.2/Contents/Home/lib/src.zip!/java.base/java/io/InputStream.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/sapmachine-22.0.2/Contents/Home/lib/src.zip!/java.base/java/lang/String.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/sapmachine-22.0.2/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/BlockingQueue.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/sapmachine-22.0.2/Contents/Home/lib/src.zip!/java.base/java/util/function/IntConsumer.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/sapmachine-22.0.2/Contents/Home/lib/src.zip!/java.base/java/util/function/IntFunction.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/sapmachine-22.0.2/Contents/Home/lib/src.zip!/java.base/java/util/function/Supplier.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/sapmachine-22.0.2/Contents/Home/lib/src.zip!/java.base/java/util/stream/Collectors.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/sapmachine-22.0.2/Contents/Home/lib/src.zip!/java.base/java/util/stream/Stream.java" root0="SKIP_INSPECTION" />
   </component>
@@ -272,7 +275,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FunctionalTest">
+  <component name="RunManager" selected="Application.FindDuplicate">
     <configuration name="CheckPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.oracle.CheckPalindrome" />
       <module name="basictest15" />
@@ -299,12 +302,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindRepeatedCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.oracle.FindRepeatedCharacters" />
+    <configuration name="FindDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.oracle.practise.FindDuplicate" />
       <module name="basictest15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.oracle.*" />
+          <option name="PATTERN" value="org.example.oracle.practise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -340,11 +343,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindDuplicate" />
         <item itemvalue="Application.FunctionalTest" />
         <item itemvalue="Application.ExceptionTest" />
-        <item itemvalue="Application.CheckPalindrome" />
         <item itemvalue="Application.RepeatAndSort" />
-        <item itemvalue="Application.FindRepeatedCharacters" />
+        <item itemvalue="Application.CheckPalindrome" />
       </list>
     </recent_temporary>
   </component>
