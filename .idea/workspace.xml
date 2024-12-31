@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c505308c-210f-4791-a24f-333aa77f1198" name="Changes" comment="added common characters in the code">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/practise/FindDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oracle/singleton/RateLimiter2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,6 +184,7 @@
     "Application.RandomNumberGenerator.executor": "Run",
     "Application.RateLimiter.executor": "Run",
     "Application.RateLimiter1.executor": "Run",
+    "Application.RateLimiter2.executor": "Run",
     "Application.RecordExample.executor": "Run",
     "Application.ReentrantEval.executor": "Run",
     "Application.ReentrantReadWriteLockEval (1).executor": "Run",
@@ -275,20 +276,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindDuplicate">
-    <configuration name="CheckPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.oracle.CheckPalindrome" />
-      <module name="basictest15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.oracle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.RateLimiter2">
     <configuration name="ExceptionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.oracle.exception.ExceptionTest" />
       <module name="basictest15" />
@@ -328,6 +316,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RateLimiter2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.oracle.singleton.RateLimiter2" />
+      <module name="basictest15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.oracle.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RepeatAndSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.oracle.practise.RepeatAndSort" />
       <module name="basictest15" />
@@ -343,11 +344,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RateLimiter2" />
         <item itemvalue="Application.FindDuplicate" />
         <item itemvalue="Application.FunctionalTest" />
         <item itemvalue="Application.ExceptionTest" />
         <item itemvalue="Application.RepeatAndSort" />
-        <item itemvalue="Application.CheckPalindrome" />
       </list>
     </recent_temporary>
   </component>
